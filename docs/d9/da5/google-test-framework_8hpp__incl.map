@@ -1,0 +1,9 @@
+<map id="cppx&#45;core/testing/google&#45;test&#45;framework.hpp" name="cppx&#45;core/testing/google&#45;test&#45;framework.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="129,5,320,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,102,119,129"/>
+<area shape="rect" id="node3" href="$d2/d63/macro-apply_8hpp.html" title="$apply invokes the specified single&#45;argument macro with each of the specified arguments." alt="" coords="333,95,495,136"/>
+<area shape="rect" id="node7" href="$d5/d4e/macro-repeat_8hpp.html" title="$repeat(n, what) produces the what text n times." alt="" coords="143,95,306,136"/>
+<area shape="rect" id="node4" href="$d4/d63/macro-n__arguments_8hpp.html" title="The $n_arguments macro evaluates to the number of arguments that are passed to it." alt="" coords="135,184,311,225"/>
+<area shape="rect" id="node5" href="$de/dd0/macro-invoke__macro_8hpp.html" title="Mostly this is a concession to the idiosyncracies of Visual C++, which still as of its 2017 version i..." alt="" coords="132,273,315,315"/>
+<area shape="rect" id="node6" href="$d5/d39/macro-joined_8hpp.html" title="$joined forms the ## concatenation of the expansions of its arguments." alt="" coords="335,184,498,225"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="cppx&#45;core/meta&#45;macro/macro&#45;apply.hpp" name="cppx&#45;core/meta&#45;macro/macro&#45;apply.hpp">
+<area shape="rect" id="node1" title="$apply invokes the specified single&#45;argument macro with each of the specified arguments." alt="" coords="137,5,300,47"/>
+<area shape="rect" id="node2" href="$d4/d63/macro-n__arguments_8hpp.html" title="The $n_arguments macro evaluates to the number of arguments that are passed to it." alt="" coords="5,95,181,136"/>
+<area shape="rect" id="node3" href="$de/dd0/macro-invoke__macro_8hpp.html" title="Mostly this is a concession to the idiosyncracies of Visual C++, which still as of its 2017 version i..." alt="" coords="65,184,247,225"/>
+<area shape="rect" id="node4" href="$d5/d39/macro-joined_8hpp.html" title="$joined forms the ## concatenation of the expansions of its arguments." alt="" coords="256,95,419,136"/>
+</map>
