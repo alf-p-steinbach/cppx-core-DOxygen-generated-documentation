@@ -72,20 +72,31 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p><code>$with</code> binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block.  
+<a href="#details">More...</a></p>
+
 <p><a href="../../de/d9e/macro-with_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:aa712d437a28619822e2f7cbab756d79a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#aa712d437a28619822e2f7cbab756d79a">with</a>&#160;&#160;&#160;<a class="el" href="../../de/d9e/macro-with_8hpp.html#a5ae4254206e66ba53ac9343ef89f61df">CPPX_WITH</a></td></tr>
+<tr class="memdesc:aa712d437a28619822e2f7cbab756d79a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real name: <code>$with</code> (the <code>$</code> is just removed by Doxygen).  <a href="#aa712d437a28619822e2f7cbab756d79a">More...</a><br /></td></tr>
 <tr class="separator:aa712d437a28619822e2f7cbab756d79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2423dd7017f51494efefd24228b1dd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#ac2423dd7017f51494efefd24228b1dd8">with_const</a>&#160;&#160;&#160;<a class="el" href="../../de/d9e/macro-with_8hpp.html#a97ea26c34a23e2970983538c74a31744">CPPX_WITH_CONST</a></td></tr>
+<tr class="memdesc:ac2423dd7017f51494efefd24228b1dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real name: <code>$with_const</code> (the <code>$</code> is just removed by Doxygen).  <a href="#ac2423dd7017f51494efefd24228b1dd8">More...</a><br /></td></tr>
 <tr class="separator:ac2423dd7017f51494efefd24228b1dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ae4254206e66ba53ac9343ef89f61df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a5ae4254206e66ba53ac9343ef89f61df">CPPX_WITH</a>(...)&#160;&#160;&#160;if ( auto&amp;&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td></tr>
+<tr class="memdesc:a5ae4254206e66ba53ac9343ef89f61df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block.  <a href="#a5ae4254206e66ba53ac9343ef89f61df">More...</a><br /></td></tr>
 <tr class="separator:a5ae4254206e66ba53ac9343ef89f61df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ea26c34a23e2970983538c74a31744"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a97ea26c34a23e2970983538c74a31744">CPPX_WITH_CONST</a>(...)&#160;&#160;&#160;if( const auto&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td></tr>
+<tr class="memdesc:a97ea26c34a23e2970983538c74a31744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the specified declarator to <code>const auto&amp;&amp; _</code> in the following braces block.  <a href="#a97ea26c34a23e2970983538c74a31744">More...</a><br /></td></tr>
 <tr class="separator:a97ea26c34a23e2970983538c74a31744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><code>$with</code> binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a5ae4254206e66ba53ac9343ef89f61df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ae4254206e66ba53ac9343ef89f61df">&#9670;&nbsp;</a></span>CPPX_WITH</h2>
 
@@ -102,7 +113,12 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00017">17</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p>Binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block. </p>
+<p>For example:</p>
+<p><code>$with( Lock( mutex ) ) access_resource();</code></p>
+<p><code>$with( cppx::Const_&lt;Lock&gt;( mutex ) ) access_resource();</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>
@@ -122,7 +138,11 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p>Binds the specified declarator to <code>const auto&amp;&amp; _</code> in the following braces block. </p>
+<p>For example:</p>
+<p><code>$with_const( Lock( mutex ) ) access_resource();</code> </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>
@@ -138,7 +158,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p>Real name: <code>$with</code> (the <code>$</code> is just removed by Doxygen). </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>
@@ -154,7 +176,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p>Real name: <code>$with_const</code> (the <code>$</code> is just removed by Doxygen). </p>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>
