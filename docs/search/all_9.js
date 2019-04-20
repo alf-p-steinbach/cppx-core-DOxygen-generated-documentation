@@ -59,7 +59,6 @@ var searchData=
   ['is_5fof_5fderived_5fclass_5f',['is_of_derived_class_',['../d6/deb/namespacecppx.html#a1f232ba8edfd0ae24122d20d9bae7801',1,'cppx']]],
   ['is_5fof_5fderived_5fclass_5f_2ehpp',['is_of_derived_class_.hpp',['../dc/d35/is__of__derived__class___8hpp.html',1,'']]],
   ['is_5fsame_5ftype_5f',['is_same_type_',['../d6/deb/namespacecppx.html#aaac7edc6763e2771f3e650a396e77087',1,'cppx']]],
-  ['is_5fsigned_5f',['is_signed_',['../d6/deb/namespacecppx.html#af9e96d1ef9208abf93c47a14ab6ab763',1,'cppx']]],
   ['is_5fsingle_5fbyte',['is_single_byte',['../d2/dcb/namespacecppx_1_1utf8.html#a3956337f3b9d646ee688727e1985a0f0',1,'cppx::utf8']]],
   ['is_5fspace',['is_space',['../d4/d60/namespacecppx_1_1cstdlib.html#a1b31829798ce37916bfae2ec66fc6928',1,'cppx::cstdlib']]],
   ['is_5fspace_3c_20wchar_5ft_20_3e',['is_space&lt; wchar_t &gt;',['../d4/d60/namespacecppx_1_1cstdlib.html#a6dcc1876e18ef861e87629f2fca5e549',1,'cppx::cstdlib']]],
