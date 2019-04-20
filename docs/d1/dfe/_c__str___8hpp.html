@@ -116,7 +116,7 @@ Typedefs</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple C string pointer type names such as <code>C_str</code> for <code>char const*</code>. </p>
-<p>The shortest names like <code>C_str</code> stand for <code>const</code> string data. The prefix <code>Mutable_</code>, as in <code><a class="el" href="../../d6/deb/namespacecppx.html#a778176e45b30cdd09fbb1899d5ad5a85">Mutable_c_str()</a></code>, indicates mutable string data. This naming reflects an experience that handling <code>const</code> string is by far most common.</p>
+<p>The shortest names like <code>C_str</code> stand for <code>const</code> string data. The prefix <code>Mutable_</code>, as in <code><a class="el" href="../../d6/deb/namespacecppx.html#a778176e45b30cdd09fbb1899d5ad5a85">Mutable_c_str()</a></code>, indicates mutable string data. This naming reflects an experience that handling <code>const</code> string data is by far most common.</p>
 <p>Using the type names avoids issues with non-reading direction placement of <code>*</code>, and it supports prefix <code>const</code>. For example, instead of </p><pre class="fragment">char const* const s = "Blah";
 </pre><p>... you can write </p><pre class="fragment">const C_str s = "Blah";
 </pre><p>Of course, for this particular example it would be silly to throw away the string length information, so one should better use <code>std::string_view</code> and write </p><pre class="fragment">constexpr string_view s = "Blah"; </pre> 
