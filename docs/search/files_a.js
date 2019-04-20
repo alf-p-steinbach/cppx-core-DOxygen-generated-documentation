@@ -9,7 +9,6 @@ var searchData=
   ['macro_2ditems_5fof_2ehpp',['macro-items_of.hpp',['../d8/daa/macro-items__of_8hpp.html',1,'']]],
   ['macro_2djoined_2ehpp',['macro-joined.hpp',['../d5/d39/macro-joined_8hpp.html',1,'']]],
   ['macro_2dn_5farguments_2ehpp',['macro-n_arguments.hpp',['../d4/d63/macro-n__arguments_8hpp.html',1,'']]],
-  ['macro_2dnoreturn_2ehpp',['macro-noreturn.hpp',['../de/db0/macro-noreturn_8hpp.html',1,'']]],
   ['macro_2drepeat_2ehpp',['macro-repeat.hpp',['../d5/d4e/macro-repeat_8hpp.html',1,'']]],
   ['macro_2dsource_5flocation_2ehpp',['macro-source_location.hpp',['../d2/dd7/macro-source__location_8hpp.html',1,'']]],
   ['macro_2duse_2ehpp',['macro-use.hpp',['../d3/d7c/macro-use_8hpp.html',1,'']]],

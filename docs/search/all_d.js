@@ -17,7 +17,6 @@ var searchData=
   ['no_5fcopy_2ehpp',['No_copy.hpp',['../dc/d24/_no__copy_8hpp.html',1,'']]],
   ['no_5fcopy_5for_5fmove',['No_copy_or_move',['../da/da6/classcppx_1_1_no__copy__or__move.html',1,'cppx::No_copy_or_move'],['../da/da6/classcppx_1_1_no__copy__or__move.html#a5486dddca852e8eaefb6ec6c46cd0bb5',1,'cppx::No_copy_or_move::No_copy_or_move()']]],
   ['no_5fcopy_5for_5fmove_2ehpp',['No_copy_or_move.hpp',['../d7/d2b/_no__copy__or__move_8hpp.html',1,'']]],
-  ['noreturn',['noreturn',['../de/db0/macro-noreturn_8hpp.html#a4a453f3a748e55cbdac6fcc79357cfef',1,'macro-noreturn.hpp']]],
   ['nul',['NUL',['../dc/d62/namespacecppx_1_1ascii.html#aad84b4744cfa4eafe51ec6733c2f9b79',1,'cppx::ascii']]],
   ['null',['null',['../dc/d62/namespacecppx_1_1ascii.html#ae164d225bc6546367687f950fc49f301',1,'cppx::ascii']]],
   ['number_2dtype_2dproperties_2ehpp',['number-type-properties.hpp',['../d1/dc4/number-type-properties_8hpp.html',1,'']]],

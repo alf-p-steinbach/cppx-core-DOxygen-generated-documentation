@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fail',['fail',['../d8/de1/namespacecppx_1_1hf.html#a806d15749020681991e7114cf76ec5d2',1,'cppx::hf::fail(const string &amp;message) -&gt; Truth'],['../d8/de1/namespacecppx_1_1hf.html#a2f84b1d4b4c9d1bd588f25d00624a401',1,'cppx::hf::fail(const string &amp;message, const Abstract_source_location &amp;throw_point) -&gt; Truth']]],
+  ['fail',['fail',['../d8/de1/namespacecppx_1_1hf.html#afc1365d2c7fba5e52a294f7a92af9d72',1,'cppx::hf::fail(const string &amp;message) -&gt; Truth'],['../d8/de1/namespacecppx_1_1hf.html#a5dd2e1978686dae9f4fa6702467dd93d',1,'cppx::hf::fail(const string &amp;message, const Abstract_source_location &amp;throw_point) -&gt; Truth']]],
   ['failpoint_5fspec',['failpoint_spec',['../d5/dd6/classcppx_1_1_abstract__source__location.html#a0bf32898c46b78ee1171b691591846e1',1,'cppx::Abstract_source_location']]],
   ['file_5fand_5fline',['file_and_line',['../d5/dd6/classcppx_1_1_abstract__source__location.html#abe66e7cc45db89c4d3f7185d5e66aef1',1,'cppx::Abstract_source_location']]],
   ['file_5fline_5fand_5fpos',['file_line_and_pos',['../d5/dd6/classcppx_1_1_abstract__source__location.html#a3e17ef047e99f536531f1ab5b3383ae6',1,'cppx::Abstract_source_location']]],

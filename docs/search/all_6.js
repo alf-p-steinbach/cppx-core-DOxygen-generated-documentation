@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fail',['fail',['../db/d7e/macro-fail_8hpp.html#a20b7be2029dc5488a8fba5d405b737d8',1,'fail():&#160;macro-fail.hpp'],['../d8/de1/namespacecppx_1_1hf.html#a806d15749020681991e7114cf76ec5d2',1,'cppx::hf::fail(const string &amp;message) -&gt; Truth'],['../d8/de1/namespacecppx_1_1hf.html#a2f84b1d4b4c9d1bd588f25d00624a401',1,'cppx::hf::fail(const string &amp;message, const Abstract_source_location &amp;throw_point) -&gt; Truth']]],
+  ['fail',['fail',['../db/d7e/macro-fail_8hpp.html#a20b7be2029dc5488a8fba5d405b737d8',1,'fail():&#160;macro-fail.hpp'],['../d8/de1/namespacecppx_1_1hf.html#afc1365d2c7fba5e52a294f7a92af9d72',1,'cppx::hf::fail(const string &amp;message) -&gt; Truth'],['../d8/de1/namespacecppx_1_1hf.html#a5dd2e1978686dae9f4fa6702467dd93d',1,'cppx::hf::fail(const string &amp;message, const Abstract_source_location &amp;throw_point) -&gt; Truth']]],
   ['fail_5f',['fail_',['../db/d7e/macro-fail_8hpp.html#abb93e6ef131b010a9c087628cf0ae216',1,'macro-fail.hpp']]],
   ['failpoint_5fspec',['failpoint_spec',['../d5/dd6/classcppx_1_1_abstract__source__location.html#a0bf32898c46b78ee1171b691591846e1',1,'cppx::Abstract_source_location']]],
   ['failure',['Failure',['../dc/dd6/structcppx_1_1hf_1_1_failure.html',1,'cppx::hf']]],
