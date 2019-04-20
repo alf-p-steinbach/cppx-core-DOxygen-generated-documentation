@@ -111,7 +111,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a8ac4da5fb3fc613e4f2802b6383560f2"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8ac4da5fb3fc613e4f2802b6383560f2">cppx::is_a_</a> = is_same_type_&lt;T, U&gt; or is_base_and_derived_&lt;T, U&gt;</td></tr>
 <tr class="separator:a8ac4da5fb3fc613e4f2802b6383560f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88e319566cac12d72ddb7db8d2e480d2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a88e319566cac12d72ddb7db8d2e480d2"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a88e319566cac12d72ddb7db8d2e480d2">cppx::is_const_</a> = std::is_const_v&lt;T&gt;</td></tr>
+<tr class="memitem:a88e319566cac12d72ddb7db8d2e480d2"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a88e319566cac12d72ddb7db8d2e480d2">cppx::is_const_</a> = std::is_const_v&lt;std::remove_reference_t&lt;T&gt;&gt;</td></tr>
 <tr class="separator:a88e319566cac12d72ddb7db8d2e480d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a691e1d86cce22d87387a80ac060aac62"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a691e1d86cce22d87387a80ac060aac62"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a691e1d86cce22d87387a80ac060aac62">cppx::is_class_</a> = std::is_class_v&lt;T&gt;</td></tr>
@@ -125,13 +125,16 @@ Variables</h2></td></tr>
 <tr class="memitem:ad174b110c091b7fdd63f3c5479ab2df3"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ad174b110c091b7fdd63f3c5479ab2df3"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad174b110c091b7fdd63f3c5479ab2df3">cppx::is_integral_</a> = std::is_integral_v&lt;T&gt;</td></tr>
 <tr class="separator:ad174b110c091b7fdd63f3c5479ab2df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e96d1ef9208abf93c47a14ab6ab763"><td class="memTemplParams" colspan="2">template&lt;class Int &gt; </td></tr>
+<tr class="memitem:af9e96d1ef9208abf93c47a14ab6ab763"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#af9e96d1ef9208abf93c47a14ab6ab763">cppx::is_signed_</a> = std::is_signed_v&lt;Int&gt;</td></tr>
+<tr class="separator:af9e96d1ef9208abf93c47a14ab6ab763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a967fb8e19466213576497393800a1e0e"><td class="memTemplParams" colspan="2">template&lt;class Int &gt; </td></tr>
 <tr class="memitem:a967fb8e19466213576497393800a1e0e"><td class="memTemplItemLeft" align="right" valign="top">constexpr Truth&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a967fb8e19466213576497393800a1e0e">cppx::is_unsigned_</a> = std::is_unsigned_v&lt;Int&gt;</td></tr>
 <tr class="separator:a967fb8e19466213576497393800a1e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><code>is_base_and_derived_</code>, <code>is_same_type_</code>, <code>is_a_</code>, <code>is_const_</code>, <code>is_class_</code>, <code>is_fixed_point_</code>, <code>is_floating_point_</code>, <code>is_integral_</code>, <code>is_integral_</code>, <code>is_unsigned_</code> </p>
-<p><code>is_based_and_derived_</code> clarifies the roles of the template arguments, which are not apparent in <code>std::is_base_of_t</code>. <code>is_based_and_derived_</code> is also more clean regarded as English. The numerical category type traits here provide a common notation for checking also for fixed point type, which is an omission in the standard library. </p>
+<p><code>is_based_and_derived_</code> clarifies the roles of the template arguments, which are not apparent in <code>std::is_base_of_t</code>. <code>is_based_and_derived_</code> is also more clean regarded as English. <code>is_const</code> doesn't care if you feed it a reference, it then reports about the referent type. The numerical category type traits provide a common notation for checking also for fixed point type, which is an omission in the standard library. But in general it's all mainly about readability and convenience. </p>
 
 <p class="definition">Definition in file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 </div></div><!-- contents -->

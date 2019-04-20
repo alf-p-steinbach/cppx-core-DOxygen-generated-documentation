@@ -22,7 +22,7 @@ var searchData=
   ['std',['std',['../dc/db1/namespacecppx_1_1std.html',1,'cppx']]],
   ['string_5frepeat',['string_repeat',['../da/d54/namespacecppx_1_1string__repeat.html',1,'cppx']]],
   ['type_5fassemblers',['type_assemblers',['../d9/d9e/namespacecppx_1_1type__assemblers.html',1,'cppx']]],
-  ['type_5fproducers',['type_producers',['../db/d77/namespacecppx_1_1type__producers.html',1,'cppx']]],
+  ['type_5fmakers',['type_makers',['../d8/dbe/namespacecppx_1_1type__makers.html',1,'cppx']]],
   ['unicode',['unicode',['../d2/d66/namespacecppx_1_1unicode.html',1,'cppx']]],
   ['utf16',['utf16',['../db/de7/namespacecppx_1_1utf16.html',1,'cppx']]],
   ['utf32',['utf32',['../dd/dba/namespacecppx_1_1utf32.html',1,'cppx']]],

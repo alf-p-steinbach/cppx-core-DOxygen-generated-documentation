@@ -17,6 +17,7 @@ var searchData=
   ['is_5fieee_5f754_5f',['is_ieee_754_',['../d6/deb/namespacecppx.html#add9872ce90612bd2bbc6c6642737dbec',1,'cppx']]],
   ['is_5fintegral_5f',['is_integral_',['../d6/deb/namespacecppx.html#ad174b110c091b7fdd63f3c5479ab2df3',1,'cppx']]],
   ['is_5fsame_5ftype_5f',['is_same_type_',['../d6/deb/namespacecppx.html#aaac7edc6763e2771f3e650a396e77087',1,'cppx']]],
+  ['is_5fsigned_5f',['is_signed_',['../d6/deb/namespacecppx.html#af9e96d1ef9208abf93c47a14ab6ab763',1,'cppx']]],
   ['is_5funsigned_5f',['is_unsigned_',['../d6/deb/namespacecppx.html#a967fb8e19466213576497393800a1e0e',1,'cppx']]],
   ['item',['item',['../de/d9e/structcppx_1_1_enumerated___1_1_item__and__index.html#ade13e86ad8bedafd32ec93cbb049e1ad',1,'cppx::Enumerated_::Item_and_index']]]
 ];
