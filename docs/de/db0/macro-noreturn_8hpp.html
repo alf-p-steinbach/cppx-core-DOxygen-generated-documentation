@@ -83,7 +83,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:a4a453f3a748e55cbdac6fcc79357cfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real name: <code>$noreturn</code> (the <code>$</code> is just removed by Doxygen).  <a href="#a4a453f3a748e55cbdac6fcc79357cfef">More...</a><br /></td></tr>
 <tr class="separator:a4a453f3a748e55cbdac6fcc79357cfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a354ea740080f558ec7fa686e370b40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db0/macro-noreturn_8hpp.html#a8a354ea740080f558ec7fa686e370b40">CPPX_NORETURN</a>&#160;&#160;&#160;[[<a class="el" href="../../de/db0/macro-noreturn_8hpp.html#a4a453f3a748e55cbdac6fcc79357cfef">noreturn</a>]]</td></tr>
-<tr class="memdesc:a8a354ea740080f558ec7fa686e370b40"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>void $noreturn foo();</code> tells the compiler that <code>foo()</code> is not returning.  <a href="#a8a354ea740080f558ec7fa686e370b40">More...</a><br /></td></tr>
+<tr class="memdesc:a8a354ea740080f558ec7fa686e370b40"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>$noreturn void foo();</code> tells the compiler that <code>foo()</code> is not returning.  <a href="#a8a354ea740080f558ec7fa686e370b40">More...</a><br /></td></tr>
 <tr class="separator:a8a354ea740080f558ec7fa686e370b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -103,7 +103,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><code>void $noreturn foo();</code> tells the compiler that <code>foo()</code> is not returning. </p>
+<p><code>$noreturn void foo();</code> tells the compiler that <code>foo()</code> is not returning. </p>
 <p>For older versions of Visual C++ and g++ that don't support the C++11 <code>[[noreturn]]</code> attribute, you can define the macro symbol <code>CPPX_FIX_NORETURN_PLEASE</code>, preferably in the compiler invocation. That was the original purpose of this macro. For newer compilers it's mainly just a readability thing, fewer distracting brackets. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../de/db0/macro-noreturn_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../de/db0/macro-noreturn_8hpp_source.html">macro-noreturn.hpp</a>.</p>
