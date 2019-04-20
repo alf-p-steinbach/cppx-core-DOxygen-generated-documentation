@@ -23,7 +23,7 @@
 <area shape="rect" id="node21" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="2244,392,2455,433"/>
 <area shape="rect" id="node22" href="$d8/daa/macro-items__of_8hpp.html" title="$items_of eases use of standard library functions, e.g. sort( $items_of( numbers ) )." alt="" coords="1988,288,2143,344"/>
 <area shape="rect" id="node23" href="$de/d9e/macro-with_8hpp.html" title="$with binds the specified declarator to auto&amp;&amp; _ in the following braces block." alt="" coords="1788,295,1964,337"/>
-<area shape="rect" id="node25" href="$d1/dfe/_c__str___8hpp.html" title=" " alt="" coords="2434,191,2582,233"/>
+<area shape="rect" id="node25" href="$d1/dfe/_c__str___8hpp.html" title="Simple C string pointer type names such as C_str for char const*." alt="" coords="2434,191,2582,233"/>
 <area shape="rect" id="node26" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="2455,295,2631,337"/>
 <area shape="rect" id="node27" href="$d6/d63/fixed-size-checking_8hpp.html" title=" " alt="" coords="2769,191,3001,233"/>
 <area shape="rect" id="node28" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="2655,295,2873,337"/>
