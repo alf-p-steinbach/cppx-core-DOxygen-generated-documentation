@@ -8,7 +8,6 @@ var searchData=
   ['unsigned_5findex',['Unsigned_index',['../d1/d9b/namespacecppx_1_1size__types.html#ada735933763e06f35b2447fc76fbcd90',1,'cppx::size_types']]],
   ['unsigned_5fint_5f',['Unsigned_int_',['../d6/deb/namespacecppx.html#ac9fac742d3e24dc17a49c9e61313f46c',1,'cppx']]],
   ['unsigned_5fsize',['Unsigned_size',['../d1/d9b/namespacecppx_1_1size__types.html#a7b5e272c423ffecc25ebcf846b1f6b54',1,'cppx::size_types']]],
-  ['unused',['unused',['../db/d81/macro-unused_8hpp.html#ac1d7cf6556c763379286f6fa5a0bf6e7',1,'macro-unused.hpp']]],
   ['up_5fto',['up_to',['../d6/deb/namespacecppx.html#a1880d2dfb374bbb4994bc320106e1217',1,'cppx']]],
   ['upper',['upper',['../db/dc0/classcppx_1_1_range__.html#a1147fb7770564b556722892440ba97d6',1,'cppx::Range_']]],
   ['use_5fascii_5fsubstitutes',['use_ascii_substitutes',['../d6/deb/namespacecppx.html#a95bfd9c133ee8c99fbe8aff415df0877',1,'cppx']]],

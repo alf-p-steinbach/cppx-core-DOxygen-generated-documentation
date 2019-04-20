@@ -67,19 +67,26 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">type-assemblers.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;c/stddef.hpp&gt;</code><br />
+
+<p>Simple type builders <code>Type_</code>, <code>P_</code>, <code>R_</code>, <code>Raw_array_</code> and <code>Raw_array_of_</code>.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d3/d7c/macro-use_8hpp_source.html">cppx-core/language/syntax/macro-use.hpp</a>&gt;</code><br />
+<code>#include &lt;c/stddef.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for type-assemblers.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../de/d7f/type-assemblers_8hpp__incl.png" border="0" usemap="#cppx-core_2language_2syntax_2type-assemblers_8hpp" alt=""/></div>
 <map name="cppx-core_2language_2syntax_2type-assemblers_8hpp" id="cppx-core_2language_2syntax_2type-assemblers_8hpp">
-<area shape="rect"  title=" " alt="" coords="5,5,216,47"/>
-<area shape="rect"  title=" " alt="" coords="57,95,164,121"/>
+<area shape="rect"  title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="73,5,283,47"/>
+<area shape="rect"  href="../../d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,95,181,136"/>
+<area shape="rect"  title=" " alt="" coords="206,102,313,129"/>
+<area shape="rect"  href="../../d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,184,188,240"/>
 </map>
 </div>
 </div>
@@ -90,35 +97,52 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d6/deb/namespacecppx"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html">cppx</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d9e/namespacecppx_1_1type__assemblers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html">cppx::type_assemblers</a></td></tr>
+<tr class="memdesc:d9/d9e/namespacecppx_1_1type__assemblers"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>Type_</code>, <code>P_</code>, <code>R_</code>, <code>Raw_array_</code>, <code>Raw_array_of_</code> <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d6/d2d/namespacecppx_1_1ptr__and__ref"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/namespacecppx_1_1ptr__and__ref.html">cppx::ptr_and_ref</a></td></tr>
+<tr class="memdesc:d6/d2d/namespacecppx_1_1ptr__and__ref"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self-descriptive but more wordy <code>Ptr_</code> and <code>Ref_</code> aliases for <code>P_</code> and <code>R_</code>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a1dad55ec1dfe236003f301cbb564f3f2"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
-<tr class="memitem:a1dad55ec1dfe236003f301cbb564f3f2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a1dad55ec1dfe236003f301cbb564f3f2">cppx::type_assemblers::Type_</a> = Some_type</td></tr>
-<tr class="separator:a1dad55ec1dfe236003f301cbb564f3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c2224c08cb67ac0400664674c62550c"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
-<tr class="memitem:a1c2224c08cb67ac0400664674c62550c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a1c2224c08cb67ac0400664674c62550c">cppx::type_assemblers::P_</a> = Some_type *</td></tr>
-<tr class="separator:a1c2224c08cb67ac0400664674c62550c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81cf40899797e3a6348ac5b72e997fce"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
-<tr class="memitem:a81cf40899797e3a6348ac5b72e997fce"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a81cf40899797e3a6348ac5b72e997fce">cppx::type_assemblers::R_</a> = Some_type &amp;</td></tr>
-<tr class="separator:a81cf40899797e3a6348ac5b72e997fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a734224754fbc29545dfa684c11d2f18f"><td class="memTemplParams" colspan="2">template&lt;class Item &gt; </td></tr>
-<tr class="memitem:a734224754fbc29545dfa684c11d2f18f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a734224754fbc29545dfa684c11d2f18f">cppx::type_assemblers::Raw_array_</a> = Item[]</td></tr>
-<tr class="separator:a734224754fbc29545dfa684c11d2f18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a1989f8f41f31bb31a91349b94576b7"><td class="memTemplParams" colspan="2">template&lt;size_t n, class Item &gt; </td></tr>
-<tr class="memitem:a4a1989f8f41f31bb31a91349b94576b7"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a4a1989f8f41f31bb31a91349b94576b7">cppx::type_assemblers::Raw_array_of_</a> = Item[n]</td></tr>
-<tr class="separator:a4a1989f8f41f31bb31a91349b94576b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2994287ec190ae8793419cb963a8f71"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:ad2994287ec190ae8793419cb963a8f71"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad2994287ec190ae8793419cb963a8f71">cppx::Type_</a> = Some_type</td></tr>
+<tr class="memdesc:ad2994287ec190ae8793419cb963a8f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a C style type specification substitutable.  <a href="../../d6/deb/namespacecppx.html#ad2994287ec190ae8793419cb963a8f71">More...</a><br /></td></tr>
+<tr class="separator:ad2994287ec190ae8793419cb963a8f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5679e5b26892c87e633319105450d1"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:aac5679e5b26892c87e633319105450d1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">cppx::P_</a> = Some_type *</td></tr>
+<tr class="memdesc:aac5679e5b26892c87e633319105450d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a raw pointer type.  <a href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">More...</a><br /></td></tr>
+<tr class="separator:aac5679e5b26892c87e633319105450d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4d332e775d2507bb7a69297c79895a"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:a6b4d332e775d2507bb7a69297c79895a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a6b4d332e775d2507bb7a69297c79895a">cppx::R_</a> = Some_type &amp;</td></tr>
+<tr class="memdesc:a6b4d332e775d2507bb7a69297c79895a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Included for completeness, creates an lvalue reference type.  <a href="../../d6/deb/namespacecppx.html#a6b4d332e775d2507bb7a69297c79895a">More...</a><br /></td></tr>
+<tr class="separator:a6b4d332e775d2507bb7a69297c79895a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memTemplParams" colspan="2">template&lt;class Item &gt; </td></tr>
+<tr class="memitem:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1b9d331025c22ec7e3f2af6badcfd0cd">cppx::Raw_array_</a> = Item[]</td></tr>
+<tr class="memdesc:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ceates a raw array type of unknown size.  <a href="../../d6/deb/namespacecppx.html#a1b9d331025c22ec7e3f2af6badcfd0cd">More...</a><br /></td></tr>
+<tr class="separator:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81e5505f670953191f0de5e77d5f01f"><td class="memTemplParams" colspan="2">template&lt;size_t n, class Item &gt; </td></tr>
+<tr class="memitem:ab81e5505f670953191f0de5e77d5f01f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">cppx::Raw_array_of_</a> = Item[n]</td></tr>
+<tr class="memdesc:ab81e5505f670953191f0de5e77d5f01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a raw array type of a specified size.  <a href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">More...</a><br /></td></tr>
+<tr class="separator:ab81e5505f670953191f0de5e77d5f01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c41bfe6c61153ec7f7f18f50958cc3f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a3c41bfe6c61153ec7f7f18f50958cc3f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2d/namespacecppx_1_1ptr__and__ref.html#a3c41bfe6c61153ec7f7f18f50958cc3f">cppx::ptr_and_ref::Ptr_</a> = P_&lt; T &gt;</td></tr>
 <tr class="separator:a3c41bfe6c61153ec7f7f18f50958cc3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e1423b9c945ef62fa277063dd189c5"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aa1e1423b9c945ef62fa277063dd189c5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d2d/namespacecppx_1_1ptr__and__ref.html#aa1e1423b9c945ef62fa277063dd189c5">cppx::ptr_and_ref::Ref_</a> = R_&lt; T &gt;</td></tr>
 <tr class="separator:aa1e1423b9c945ef62fa277063dd189c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6e1e7e5e4e2679a28bc71a52cd624f26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html#a6e1e7e5e4e2679a28bc71a52cd624f26">cppx::type_assemblers::CPPX_USE_CPPX</a> (Type_, P_, R_, Raw_array_, Raw_array_of_)</td></tr>
+<tr class="separator:a6e1e7e5e4e2679a28bc71a52cd624f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Simple type builders <code>Type_</code>, <code>P_</code>, <code>R_</code>, <code>Raw_array_</code> and <code>Raw_array_of_</code>. </p>
+<p>The more safe standard library generators such as std::add_pointer_t are not used because they would prevent template argument deduction. The basic builders defined here are just names for the conventional way of writing e.g. formal argument types, i.e. they're simple assemblers. As such they carry the same risk of unintended type result as the raw operator notation does, but they have advantages such as supporting uniform <code>const</code> first notation, more generally read-left-to-right declarations, and being self-descriptive. </p>
+
+<p class="definition">Definition in file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

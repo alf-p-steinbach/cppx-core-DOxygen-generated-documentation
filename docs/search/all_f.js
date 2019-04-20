@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p_5f',['P_',['../d9/d9e/namespacecppx_1_1type__assemblers.html#a1c2224c08cb67ac0400664674c62550c',1,'cppx::type_assemblers']]],
+  ['p_5f',['P_',['../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1',1,'cppx']]],
   ['p_5fbeyond_5fof',['p_beyond_of',['../d6/deb/namespacecppx.html#a952d16e6de3ffb7435df994bc56527a0',1,'cppx']]],
   ['p_5ffirst_5fof',['p_first_of',['../d6/deb/namespacecppx.html#a383dd2bb5b0928d8fc8c1ec12e698d76',1,'cppx']]],
   ['pair_5fvalue_5f1_5ffrom',['pair_value_1_from',['../db/de7/namespacecppx_1_1utf16.html#a9a2a8b4357da96eeb5fbe9a90a220c81',1,'cppx::utf16']]],

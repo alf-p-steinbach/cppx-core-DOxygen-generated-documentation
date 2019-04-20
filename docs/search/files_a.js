@@ -12,7 +12,6 @@ var searchData=
   ['macro_2dnoreturn_2ehpp',['macro-noreturn.hpp',['../de/db0/macro-noreturn_8hpp.html',1,'']]],
   ['macro_2drepeat_2ehpp',['macro-repeat.hpp',['../d5/d4e/macro-repeat_8hpp.html',1,'']]],
   ['macro_2dsource_5flocation_2ehpp',['macro-source_location.hpp',['../d2/dd7/macro-source__location_8hpp.html',1,'']]],
-  ['macro_2dunused_2ehpp',['macro-unused.hpp',['../db/d81/macro-unused_8hpp.html',1,'']]],
   ['macro_2duse_2ehpp',['macro-use.hpp',['../d3/d7c/macro-use_8hpp.html',1,'']]],
   ['macro_2dwith_2ehpp',['macro-with.hpp',['../de/d9e/macro-with_8hpp.html',1,'']]],
   ['map_5f_2ehpp',['Map_.hpp',['../dd/d76/_map___8hpp.html',1,'']]],

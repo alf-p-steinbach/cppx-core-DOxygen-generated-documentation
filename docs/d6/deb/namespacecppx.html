@@ -109,6 +109,7 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:d6/d02/namespacecppx_1_1number__properties"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concise, clear and consistent number type properties. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d6/d2d/namespacecppx_1_1ptr__and__ref"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2d/namespacecppx_1_1ptr__and__ref.html">ptr_and_ref</a></td></tr>
+<tr class="memdesc:d6/d2d/namespacecppx_1_1ptr__and__ref"><td class="mdescLeft">&#160;</td><td class="mdescRight">Self-descriptive but more wordy <code>Ptr_</code> and <code>Ref_</code> aliases for <code>P_</code> and <code>R_</code>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/d51/namespacecppx_1_1rnd"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d51/namespacecppx_1_1rnd.html">rnd</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,6 +120,7 @@ Namespaces</h2></td></tr>
 <tr class="memitem:da/d54/namespacecppx_1_1string__repeat"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d54/namespacecppx_1_1string__repeat.html">string_repeat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d9e/namespacecppx_1_1type__assemblers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9e/namespacecppx_1_1type__assemblers.html">type_assemblers</a></td></tr>
+<tr class="memdesc:d9/d9e/namespacecppx_1_1type__assemblers"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>Type_</code>, <code>P_</code>, <code>R_</code>, <code>Raw_array_</code>, <code>Raw_array_of_</code> <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:db/d77/namespacecppx_1_1type__producers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d77/namespacecppx_1_1type__producers.html">type_producers</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,14 +195,34 @@ Typedefs</h2></td></tr>
 <tr class="separator:a89457d1fe017ee07c6f2ec1a683ed740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fecfc33d7a2951bc4e4d2e33b7ea65"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a09fecfc33d7a2951bc4e4d2e33b7ea65">WString_value_view</a> = <a class="el" href="../../d5/d42/classcppx_1_1_string__value__view__.html">String_value_view_</a>&lt; wchar_t &gt;</td></tr>
 <tr class="separator:a09fecfc33d7a2951bc4e4d2e33b7ea65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2994287ec190ae8793419cb963a8f71"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:ad2994287ec190ae8793419cb963a8f71"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad2994287ec190ae8793419cb963a8f71">Type_</a> = Some_type</td></tr>
+<tr class="memdesc:ad2994287ec190ae8793419cb963a8f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a C style type specification substitutable.  <a href="#ad2994287ec190ae8793419cb963a8f71">More...</a><br /></td></tr>
+<tr class="separator:ad2994287ec190ae8793419cb963a8f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5679e5b26892c87e633319105450d1"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:aac5679e5b26892c87e633319105450d1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a> = Some_type *</td></tr>
+<tr class="memdesc:aac5679e5b26892c87e633319105450d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a raw pointer type.  <a href="#aac5679e5b26892c87e633319105450d1">More...</a><br /></td></tr>
+<tr class="separator:aac5679e5b26892c87e633319105450d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4d332e775d2507bb7a69297c79895a"><td class="memTemplParams" colspan="2">template&lt;class Some_type &gt; </td></tr>
+<tr class="memitem:a6b4d332e775d2507bb7a69297c79895a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a6b4d332e775d2507bb7a69297c79895a">R_</a> = Some_type &amp;</td></tr>
+<tr class="memdesc:a6b4d332e775d2507bb7a69297c79895a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Included for completeness, creates an lvalue reference type.  <a href="#a6b4d332e775d2507bb7a69297c79895a">More...</a><br /></td></tr>
+<tr class="separator:a6b4d332e775d2507bb7a69297c79895a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memTemplParams" colspan="2">template&lt;class Item &gt; </td></tr>
+<tr class="memitem:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1b9d331025c22ec7e3f2af6badcfd0cd">Raw_array_</a> = Item[]</td></tr>
+<tr class="memdesc:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ceates a raw array type of unknown size.  <a href="#a1b9d331025c22ec7e3f2af6badcfd0cd">More...</a><br /></td></tr>
+<tr class="separator:a1b9d331025c22ec7e3f2af6badcfd0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81e5505f670953191f0de5e77d5f01f"><td class="memTemplParams" colspan="2">template&lt;size_t n, class Item &gt; </td></tr>
+<tr class="memitem:ab81e5505f670953191f0de5e77d5f01f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a> = Item[n]</td></tr>
+<tr class="memdesc:ab81e5505f670953191f0de5e77d5f01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a raw array type of a specified size.  <a href="#ab81e5505f670953191f0de5e77d5f01f">More...</a><br /></td></tr>
+<tr class="separator:ab81e5505f670953191f0de5e77d5f01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba91ea1a064a3c832b51874833fc2bd"><td class="memTemplParams" colspan="2">template&lt;bool condition, class Result  = void&gt; </td></tr>
 <tr class="memitem:a6ba91ea1a064a3c832b51874833fc2bd"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a6ba91ea1a064a3c832b51874833fc2bd">Enable_if_</a> = std::enable_if_t&lt; condition, Result &gt;</td></tr>
 <tr class="separator:a6ba91ea1a064a3c832b51874833fc2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a268fbd15139eb7f496d39bccb44afcd3"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:a268fbd15139eb7f496d39bccb44afcd3"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a268fbd15139eb7f496d39bccb44afcd3">C_str_</a> = P_&lt; Const_&lt; Char &gt; &gt;</td></tr>
+<tr class="memitem:a268fbd15139eb7f496d39bccb44afcd3"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a268fbd15139eb7f496d39bccb44afcd3">C_str_</a> = <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Const_&lt; Char &gt; &gt;</td></tr>
 <tr class="separator:a268fbd15139eb7f496d39bccb44afcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9e191f1bfea9a03e69c20a717e7a77a"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:ab9e191f1bfea9a03e69c20a717e7a77a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab9e191f1bfea9a03e69c20a717e7a77a">Mutable_c_str_</a> = P_&lt; Unconst_&lt; Char &gt; &gt;</td></tr>
+<tr class="memitem:ab9e191f1bfea9a03e69c20a717e7a77a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab9e191f1bfea9a03e69c20a717e7a77a">Mutable_c_str_</a> = <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Unconst_&lt; Char &gt; &gt;</td></tr>
 <tr class="separator:ab9e191f1bfea9a03e69c20a717e7a77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f01ae6158dd1c934aa40d943c53ef6c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3f01ae6158dd1c934aa40d943c53ef6c">C_str</a> = <a class="el" href="../../d6/deb/namespacecppx.html#a268fbd15139eb7f496d39bccb44afcd3">C_str_</a>&lt; char &gt;</td></tr>
 <tr class="separator:a3f01ae6158dd1c934aa40d943c53ef6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -258,7 +280,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1bf32af9a9b8eab07b2a7323745d525b">n_items_of</a> (const bitset&lt; n &gt; &amp;bits) noexcept -&gt; Size</td></tr>
 <tr class="separator:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a85c32a31bf035484b88b1c126c3c60ad">length_of</a> (const P_&lt; const Char &gt; s) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a85c32a31bf035484b88b1c126c3c60ad">length_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt; s) noexcept -&gt; Size</td></tr>
 <tr class="separator:a85c32a31bf035484b88b1c126c3c60ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ae1f975530eff64d8e8caf14418439a"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
 <tr class="memitem:a3ae1f975530eff64d8e8caf14418439a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3ae1f975530eff64d8e8caf14418439a">length_of</a> (const basic_string&lt; Char &gt; &amp;s) noexcept -&gt; Size</td></tr>
@@ -279,13 +301,13 @@ Functions</h2></td></tr>
 <tr class="memitem:aae83a61eb05977ff8a3fb0b9a86a8cef"><td class="memTemplParams" colspan="2">template&lt;class Collection &gt; </td></tr>
 <tr class="memitem:aae83a61eb05977ff8a3fb0b9a86a8cef"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aae83a61eb05977ff8a3fb0b9a86a8cef">is_empty</a> (const Collection &amp;c) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:aae83a61eb05977ff8a3fb0b9a86a8cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f6b24a93757464aa630fe07fe7d8181"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3f6b24a93757464aa630fe07fe7d8181">is_empty</a> (const P_&lt; const char &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:a3f6b24a93757464aa630fe07fe7d8181"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3f6b24a93757464aa630fe07fe7d8181">is_empty</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a3f6b24a93757464aa630fe07fe7d8181"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cb5425346b638e6b61528e885308f69"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a4cb5425346b638e6b61528e885308f69">is_empty</a> (const P_&lt; const wchar_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:a4cb5425346b638e6b61528e885308f69"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a4cb5425346b638e6b61528e885308f69">is_empty</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const wchar_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a4cb5425346b638e6b61528e885308f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac59c2b09c62e750d46a049ca6395cdb7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac59c2b09c62e750d46a049ca6395cdb7">is_empty</a> (const P_&lt; const char16_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:ac59c2b09c62e750d46a049ca6395cdb7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac59c2b09c62e750d46a049ca6395cdb7">is_empty</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char16_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:ac59c2b09c62e750d46a049ca6395cdb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cf34d9bdc2efc74fac7f6fcbb8c88a2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8cf34d9bdc2efc74fac7f6fcbb8c88a2">is_empty</a> (const P_&lt; const char32_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:a8cf34d9bdc2efc74fac7f6fcbb8c88a2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8cf34d9bdc2efc74fac7f6fcbb8c88a2">is_empty</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char32_t &gt; s) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a8cf34d9bdc2efc74fac7f6fcbb8c88a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d37e89a7f6402c683341983646f9d51"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3d37e89a7f6402c683341983646f9d51">CPPX_USE_STD</a> (basic_string_view, begin, binary_search, bitset, end, find, initializer_list)</td></tr>
 <tr class="separator:a3d37e89a7f6402c683341983646f9d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -302,13 +324,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a229f0d6d1ba3f7ffbb305cd3b421871b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a229f0d6d1ba3f7ffbb305cd3b421871b">is_in_span</a> (const It begin, const It end, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a229f0d6d1ba3f7ffbb305cd3b421871b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d6aafe1fc94e23ec621a15a2595cad7"><td class="memTemplParams" colspan="2">template&lt;class Key , Size n, class Arg &gt; </td></tr>
-<tr class="memitem:a3d6aafe1fc94e23ec621a15a2595cad7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3d6aafe1fc94e23ec621a15a2595cad7">is_in</a> (Raw_array_of_&lt; n, const Key &gt; &amp;a, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:a3d6aafe1fc94e23ec621a15a2595cad7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3d6aafe1fc94e23ec621a15a2595cad7">is_in</a> (<a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Key &gt; &amp;a, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a3d6aafe1fc94e23ec621a15a2595cad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da5d9860afd500faf522a98bc62dc03"><td class="memTemplParams" colspan="2">template&lt;class It , class Arg &gt; </td></tr>
 <tr class="memitem:a7da5d9860afd500faf522a98bc62dc03"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a7da5d9860afd500faf522a98bc62dc03">is_in_sorted_span</a> (const It begin, const It end, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:a7da5d9860afd500faf522a98bc62dc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa11df4a627c3e4398ca76803a42873fd"><td class="memTemplParams" colspan="2">template&lt;class Key , Size n, class Arg &gt; </td></tr>
-<tr class="memitem:aa11df4a627c3e4398ca76803a42873fd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa11df4a627c3e4398ca76803a42873fd">is_in_sorted</a> (Raw_array_of_&lt; n, const Key &gt; &amp;a, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memitem:aa11df4a627c3e4398ca76803a42873fd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa11df4a627c3e4398ca76803a42873fd">is_in_sorted</a> (<a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Key &gt; &amp;a, const Arg &amp;v) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
 <tr class="separator:aa11df4a627c3e4398ca76803a42873fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a159262b9c3ac8d27cd8b02fba796d4f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a159262b9c3ac8d27cd8b02fba796d4f0">CPPX_USE_STD</a> (unordered_map)</td></tr>
 <tr class="separator:a159262b9c3ac8d27cd8b02fba796d4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -425,7 +447,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1cf84d2eb6b4b6db194b9fdb2d740bc7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1cf84d2eb6b4b6db194b9fdb2d740bc7">all_but_last_of</a> (Container &amp;c) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
 <tr class="separator:a1cf84d2eb6b4b6db194b9fdb2d740bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memTemplParams" colspan="2">template&lt;class Char , Size n&gt; </td></tr>
-<tr class="memitem:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a531de9dcb72ce1ca614359f0cdd3f028">text_span_of_literal</a> (const Raw_array_of_&lt; n, const Char &gt; &amp;string_literal) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; P_&lt; const Char &gt;&gt;</td></tr>
+<tr class="memitem:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a531de9dcb72ce1ca614359f0cdd3f028">text_span_of_literal</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;string_literal) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt;&gt;</td></tr>
 <tr class="separator:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab567f272fd26089f85cfa48f4d03170c"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:ab567f272fd26089f85cfa48f4d03170c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab567f272fd26089f85cfa48f4d03170c">all_but_last_n_of</a> (Container &amp;c, const Size n) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
@@ -532,7 +554,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a33ca0898df5dec4a1eb912787097c329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a33ca0898df5dec4a1eb912787097c329">CPPX_USE_STD</a> (array, bitset)</td></tr>
 <tr class="separator:a33ca0898df5dec4a1eb912787097c329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplParams" colspan="2">template&lt;class Item , size_t n&gt; </td></tr>
-<tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa639d3ab47ac40fd6a07a6500ab92213">array_size_of</a> (const Raw_array_of_&lt; n, Item &gt; &amp;) noexcept -&gt; Size</td></tr>
+<tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa639d3ab47ac40fd6a07a6500ab92213">array_size_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, Item &gt; &amp;) noexcept -&gt; Size</td></tr>
 <tr class="separator:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memTemplParams" colspan="2">template&lt;class Item , size_t n&gt; </td></tr>
 <tr class="memitem:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a42f6952a1bb05e25dcc198ee49d3cfc9">array_size_of</a> (const array&lt; Item, n &gt; &amp;) noexcept -&gt; Size</td></tr>
@@ -541,12 +563,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a951a56e012743239d756b0ac893bf781"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a951a56e012743239d756b0ac893bf781">array_size_of</a> (const bitset&lt; n &gt; &amp;) noexcept -&gt; Size</td></tr>
 <tr class="separator:a951a56e012743239d756b0ac893bf781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplParams" colspan="2">template&lt;class Char , Size n&gt; </td></tr>
-<tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab33c02b29dc9f11bfaa81792278b3e16">length_of_literal</a> (Raw_array_of_&lt; n, const Char &gt; &amp;s) noexcept -&gt; Size</td></tr>
+<tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab33c02b29dc9f11bfaa81792278b3e16">length_of_literal</a> (<a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;s) noexcept -&gt; Size</td></tr>
 <tr class="separator:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163fd8241aa22c9484b87dfe245944d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a163fd8241aa22c9484b87dfe245944d7">CPPX_USE_STD</a> (enable_if_t, is_same_v)</td></tr>
 <tr class="separator:a163fd8241aa22c9484b87dfe245944d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79dfc4d46ed16df7167416001a30717a"><td class="memTemplParams" colspan="2">template&lt;class Derived , class Type , class  = Enable_if_&lt;is_base_and_derived_&lt;Type, Derived&gt;&gt;&gt; </td></tr>
-<tr class="memitem:a79dfc4d46ed16df7167416001a30717a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a79dfc4d46ed16df7167416001a30717a">downcasted_to_</a> (P_&lt; Type &gt; p) -&gt; P_&lt; Derived &gt;</td></tr>
+<tr class="memitem:a79dfc4d46ed16df7167416001a30717a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a79dfc4d46ed16df7167416001a30717a">downcasted_to_</a> (<a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Type &gt; p) -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Derived &gt;</td></tr>
 <tr class="separator:a79dfc4d46ed16df7167416001a30717a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f232ba8edfd0ae24122d20d9bae7801"><td class="memTemplParams" colspan="2">template&lt;class Derived , class Type , class  = Enable_if_&lt;is_base_and_derived_&lt;Type, Derived&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a1f232ba8edfd0ae24122d20d9bae7801"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1f232ba8edfd0ae24122d20d9bae7801">is_of_derived_class_</a> (const Type &amp;o) -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
@@ -752,7 +774,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a55deaf0efdc8994bf98b24c2f3f3ef5a"><td class="memItemLeft" align="right" valign="top">const wchar_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a55deaf0efdc8994bf98b24c2f3f3ef5a">std_unicode_bad_char</a> = L'\uFFFD'</td></tr>
 <tr class="separator:a55deaf0efdc8994bf98b24c2f3f3ef5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ac69468371b389577af7c09f2caa42"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:aa1ac69468371b389577af7c09f2caa42"><td class="memTemplItemLeft" align="right" valign="top">constexpr Raw_array_of_&lt; 1, const Char &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa1ac69468371b389577af7c09f2caa42">empty_c_string</a> = {}</td></tr>
+<tr class="memitem:aa1ac69468371b389577af7c09f2caa42"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; 1, const Char &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa1ac69468371b389577af7c09f2caa42">empty_c_string</a> = {}</td></tr>
 <tr class="separator:aa1ac69468371b389577af7c09f2caa42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -797,7 +819,7 @@ Variables</h2></td></tr>
 template&lt;class Char &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a268fbd15139eb7f496d39bccb44afcd3">cppx::C_str_</a> = typedef P_&lt;Const_&lt;Char&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a268fbd15139eb7f496d39bccb44afcd3">cppx::C_str_</a> = typedef <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt;Const_&lt;Char&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1021,7 +1043,7 @@ template&lt;class Type_list_1 , class Type_list_2 &gt; </div>
 template&lt;class Char &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ab9e191f1bfea9a03e69c20a717e7a77a">cppx::Mutable_c_str_</a> = typedef P_&lt;Unconst_&lt;Char&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ab9e191f1bfea9a03e69c20a717e7a77a">cppx::Mutable_c_str_</a> = typedef <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt;Unconst_&lt;Char&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1046,6 +1068,49 @@ template&lt;class Char &gt; </div>
 
 </div>
 </div>
+<a id="aac5679e5b26892c87e633319105450d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5679e5b26892c87e633319105450d1">&#9670;&nbsp;</a></span>P_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Some_type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">cppx::P_</a> = typedef Some_type*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a raw pointer type. </p>
+<p><code>P_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;*</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;*&gt;</code>. Except for missing template argument deduction ability and added verbosity it can also be expressed as <code>std::add_pointer_t&lt;T&gt;</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6b4d332e775d2507bb7a69297c79895a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b4d332e775d2507bb7a69297c79895a">&#9670;&nbsp;</a></span>R_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Some_type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a6b4d332e775d2507bb7a69297c79895a">cppx::R_</a> = typedef Some_type&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Included for completeness, creates an lvalue reference type. </p>
+<p><code>R_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;&amp;</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;&amp;&gt;</code>. Except for missing template argument deduction and added verbosity it can also be expressed as <code>std::add_lvalue_reference_t&lt;T&gt;</code>.</p>
+<p>Preferably write just <code>T&amp;</code> or <code>Type_&lt;T&gt;&amp;</code>, and not the less eye-friendly <code>R_&lt;T&gt;</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+
+</div>
+</div>
 <a id="aebf80dc3f7f222ba07d6f3169e36a3e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aebf80dc3f7f222ba07d6f3169e36a3e3">&#9670;&nbsp;</a></span>Range</h2>
 
@@ -1059,6 +1124,49 @@ template&lt;class Char &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d6b/_range___8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d4/d6b/_range___8hpp_source.html">Range_.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1b9d331025c22ec7e3f2af6badcfd0cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9d331025c22ec7e3f2af6badcfd0cd">&#9670;&nbsp;</a></span>Raw_array_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Item &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a1b9d331025c22ec7e3f2af6badcfd0cd">cppx::Raw_array_</a> = typedef Item[]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ceates a raw array type of unknown size. </p>
+<p><code>Raw_array_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;[]</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;[]&gt;</code>. The C++17 standard library provides no notation for this.</p>
+<p>A raw array of unknown size can acquire a size via an initializer, e.g. <code>const Raw_array_of&lt;int&gt; numbers = {1, 2, 3};</code> (where the size is then 3). </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab81e5505f670953191f0de5e77d5f01f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81e5505f670953191f0de5e77d5f01f">&#9670;&nbsp;</a></span>Raw_array_of_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t n, class Item &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">cppx::Raw_array_of_</a> = typedef Item[n]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a raw array type of a specified size. </p>
+<p><code>Raw_array_of_&lt;n, T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;[n]</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;[n]&gt;</code>. The C++17 standard library provides no notation for this. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1109,6 +1217,31 @@ template&lt;class A_type_list &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../db/dd7/chrono-util_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../db/dd7/chrono-util_8hpp_source.html">chrono-util.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad2994287ec190ae8793419cb963a8f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2994287ec190ae8793419cb963a8f71">&#9670;&nbsp;</a></span>Type_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Some_type &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ad2994287ec190ae8793419cb963a8f71">cppx::Type_</a> = typedef Some_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes a C style type specification substitutable. </p>
+<p><code>Type_&lt;T&gt;</code> is the type denoted by the type expression <code>T</code>, wrapped up so that other type builders (e.g. <code>const</code>) can be applied to it.</p>
+<p>E.g. instead of the difficult-to-parse </p><pre class="fragment">int (&amp; (*const fp)())[42];
+</pre><p>you can write it with prefix <code>const</code> as </p><pre class="fragment">const Type_&lt;Type_&lt;auto()-&gt;int(&amp;)[42]&gt;*&gt; fp;
+</pre><p>although for this particular example using the <code><a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1" title="Creates a raw pointer type.">P_</a></code> type builder is more clean: </p><pre class="fragment">const P_&lt;auto()-&gt;int(&amp;)[42]&gt; fp;
+</pre><p>Credit: I first saw a template like <code>Type_</code> suggested by Johannes “litb” Schaub. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1398,7 +1531,7 @@ template&lt;class Item , size_t n&gt; </div>
         <tr>
           <td class="memname">constexpr auto cppx::array_size_of </td>
           <td>(</td>
-          <td class="paramtype">const Raw_array_of_&lt; n, Item &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, Item &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; Size
     </td>
@@ -2796,9 +2929,9 @@ template&lt;class Derived , class Type , class  = Enable_if_&lt;is_base_and_deri
         <tr>
           <td class="memname">auto cppx::downcasted_to_ </td>
           <td>(</td>
-          <td class="paramtype">P_&lt; Type &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Type &gt;&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
-          <td> -&gt; P_&lt;Derived&gt;
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt;Derived&gt;
     </td>
         </tr>
       </table>
@@ -3271,7 +3404,7 @@ template&lt;class Collection &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_empty </td>
           <td>(</td>
-          <td class="paramtype">const P_&lt; const char &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a>    </td>
         </tr>
@@ -3299,7 +3432,7 @@ template&lt;class Collection &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_empty </td>
           <td>(</td>
-          <td class="paramtype">const P_&lt; const wchar_t &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const wchar_t &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a>    </td>
         </tr>
@@ -3327,7 +3460,7 @@ template&lt;class Collection &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_empty </td>
           <td>(</td>
-          <td class="paramtype">const P_&lt; const char16_t &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char16_t &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a>    </td>
         </tr>
@@ -3355,7 +3488,7 @@ template&lt;class Collection &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_empty </td>
           <td>(</td>
-          <td class="paramtype">const P_&lt; const char32_t &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const char32_t &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a>    </td>
         </tr>
@@ -3633,7 +3766,7 @@ template&lt;class Key , Size n, class Arg &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_in </td>
           <td>(</td>
-          <td class="paramtype">Raw_array_of_&lt; n, const Key &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -3765,7 +3898,7 @@ template&lt;class Key , Size n, class Arg &gt; </div>
         <tr>
           <td class="memname">auto cppx::is_in_sorted </td>
           <td>(</td>
-          <td class="paramtype">Raw_array_of_&lt; n, const Key &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -4021,7 +4154,7 @@ template&lt;class Char &gt; </div>
         <tr>
           <td class="memname">auto cppx::length_of </td>
           <td>(</td>
-          <td class="paramtype">const P_&lt; const Char &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; Size
     </td>
@@ -4114,7 +4247,7 @@ template&lt;class Char , Size n&gt; </div>
         <tr>
           <td class="memname">constexpr auto cppx::length_of_literal </td>
           <td>(</td>
-          <td class="paramtype">Raw_array_of_&lt; n, const Char &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
           <td> -&gt; Size
     </td>
@@ -5334,9 +5467,9 @@ template&lt;class Char , Size n&gt; </div>
         <tr>
           <td class="memname">auto cppx::text_span_of_literal </td>
           <td>(</td>
-          <td class="paramtype">const Raw_array_of_&lt; n, const Char &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;&#160;</td>
           <td class="paramname"><em>string_literal</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt;P_&lt;const Char&gt;&gt;
+          <td> -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt;<a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt;const Char&gt;&gt;
     </td>
         </tr>
       </table>
@@ -5595,7 +5728,7 @@ template&lt;class Possible_subset , class Main_set &gt; </div>
 template&lt;class Char &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Raw_array_of_&lt;1, const Char&gt; cppx::empty_c_string = {}</td>
+          <td class="memname">constexpr <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt;1, const Char&gt; cppx::empty_c_string = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -12,7 +12,6 @@ var searchData=
   ['macro_2dnoreturn_2ehpp',['macro-noreturn.hpp',['../de/db0/macro-noreturn_8hpp.html',1,'']]],
   ['macro_2drepeat_2ehpp',['macro-repeat.hpp',['../d5/d4e/macro-repeat_8hpp.html',1,'']]],
   ['macro_2dsource_5flocation_2ehpp',['macro-source_location.hpp',['../d2/dd7/macro-source__location_8hpp.html',1,'']]],
-  ['macro_2dunused_2ehpp',['macro-unused.hpp',['../db/d81/macro-unused_8hpp.html',1,'']]],
   ['macro_2duse_2ehpp',['macro-use.hpp',['../d3/d7c/macro-use_8hpp.html',1,'']]],
   ['macro_2dwith_2ehpp',['macro-with.hpp',['../de/d9e/macro-with_8hpp.html',1,'']]],
   ['magnitude_5fbits_5fper_5f',['magnitude_bits_per_',['../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077',1,'cppx']]],

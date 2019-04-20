@@ -85,11 +85,11 @@ Macros</h2></td></tr>
 <tr class="memitem:ac2423dd7017f51494efefd24228b1dd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#ac2423dd7017f51494efefd24228b1dd8">with_const</a>&#160;&#160;&#160;<a class="el" href="../../de/d9e/macro-with_8hpp.html#a97ea26c34a23e2970983538c74a31744">CPPX_WITH_CONST</a></td></tr>
 <tr class="memdesc:ac2423dd7017f51494efefd24228b1dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real name: <code>$with_const</code> (the <code>$</code> is just removed by Doxygen).  <a href="#ac2423dd7017f51494efefd24228b1dd8">More...</a><br /></td></tr>
 <tr class="separator:ac2423dd7017f51494efefd24228b1dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ae4254206e66ba53ac9343ef89f61df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a5ae4254206e66ba53ac9343ef89f61df">CPPX_WITH</a>(...)&#160;&#160;&#160;if ( auto&amp;&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td></tr>
+<tr class="memitem:a5ae4254206e66ba53ac9343ef89f61df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a5ae4254206e66ba53ac9343ef89f61df">CPPX_WITH</a>(...)&#160;&#160;&#160;if ( auto&amp;&amp; _ [[maybe_unused]] = __VA_ARGS__; true )</td></tr>
 <tr class="memdesc:a5ae4254206e66ba53ac9343ef89f61df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block.  <a href="#a5ae4254206e66ba53ac9343ef89f61df">More...</a><br /></td></tr>
 <tr class="separator:a5ae4254206e66ba53ac9343ef89f61df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97ea26c34a23e2970983538c74a31744"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a97ea26c34a23e2970983538c74a31744">CPPX_WITH_CONST</a>(...)&#160;&#160;&#160;if( const auto&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td></tr>
-<tr class="memdesc:a97ea26c34a23e2970983538c74a31744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the specified declarator to <code>const auto&amp;&amp; _</code> in the following braces block.  <a href="#a97ea26c34a23e2970983538c74a31744">More...</a><br /></td></tr>
+<tr class="memitem:a97ea26c34a23e2970983538c74a31744"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9e/macro-with_8hpp.html#a97ea26c34a23e2970983538c74a31744">CPPX_WITH_CONST</a>(...)&#160;&#160;&#160;if( const auto&amp; _ [[maybe_unused]] = __VA_ARGS__; true )</td></tr>
+<tr class="memdesc:a97ea26c34a23e2970983538c74a31744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds the specified declarator to <code>const auto&amp; _</code> in the following braces block.  <a href="#a97ea26c34a23e2970983538c74a31744">More...</a><br /></td></tr>
 <tr class="separator:a97ea26c34a23e2970983538c74a31744"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -108,17 +108,18 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;if ( auto&amp;&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td>
+          <td>&#160;&#160;&#160;if ( auto&amp;&amp; _ [[maybe_unused]] = __VA_ARGS__; true )</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Binds the specified declarator to <code>auto&amp;&amp; _</code> in the following braces block. </p>
-<p>For example:</p>
+<p><code>$with</code> can be used to make clear that an object is used for constructor + destructor execution (RAII), or that it's used just to hold a temporary result in order to access parts of it using the <code>_</code> name.</p>
+<p>RAII examples:</p>
 <p><code>$with( Lock( mutex ) ) access_resource();</code></p>
-<p><code>$with( cppx::Const_&lt;Lock&gt;( mutex ) ) access_resource();</code> </p>
+<p><code>$with( Const_&lt;Lock&gt;( mutex ) ) access_resource();</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>
@@ -133,16 +134,16 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td>&#160;&#160;&#160;if( const auto&amp; _ = __VA_ARGS__; true or !!&amp;_ )</td>
+          <td>&#160;&#160;&#160;if( const auto&amp; _ [[maybe_unused]] = __VA_ARGS__; true )</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Binds the specified declarator to <code>const auto&amp;&amp; _</code> in the following braces block. </p>
+<p>Binds the specified declarator to <code>const auto&amp; _</code> in the following braces block. </p>
 <p>For example:</p>
 <p><code>$with_const( Lock( mutex ) ) access_resource();</code> </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d9e/macro-with_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../de/d9e/macro-with_8hpp_source.html">macro-with.hpp</a>.</p>
 
 </div>
 </div>

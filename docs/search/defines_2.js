@@ -35,7 +35,6 @@ var searchData=
   ['cppx_5frequire_5fexpansion_5fhelper_5f',['CPPX_REQUIRE_EXPANSION_HELPER_',['../d5/d6e/boost-test-framework_8hpp.html#acd4536acf7c81c610f4af5d78954b748',1,'boost-test-framework.hpp']]],
   ['cppx_5fsource_5flocation',['CPPX_SOURCE_LOCATION',['../d2/dd7/macro-source__location_8hpp.html#a54a7a7ba6c7c1f5ca9cc350838091f8e',1,'macro-source_location.hpp']]],
   ['cppx_5ftest_5fcase',['CPPX_TEST_CASE',['../d5/d6e/boost-test-framework_8hpp.html#ac6dcda7dc3cc4d2d60a408fea23219a4',1,'boost-test-framework.hpp']]],
-  ['cppx_5funused',['CPPX_UNUSED',['../db/d81/macro-unused_8hpp.html#a4dd2ac036da0cb53c09f827a60696aa4',1,'macro-unused.hpp']]],
   ['cppx_5fuse_5fcppx',['CPPX_USE_CPPX',['../d3/d7c/macro-use_8hpp.html#aaa954273e2aeb3171c12ebd1fa883cf4',1,'macro-use.hpp']]],
   ['cppx_5fuse_5fcppx_5fnamespace_5fname',['CPPX_USE_CPPX_NAMESPACE_NAME',['../d3/d7c/macro-use_8hpp.html#aa0c85bbf438f24da16a5975cb6d7845f',1,'macro-use.hpp']]],
   ['cppx_5fuse_5fcppx_5fnamespace_5fnames',['CPPX_USE_CPPX_NAMESPACE_NAMES',['../d3/d7c/macro-use_8hpp.html#adceb0be6b15666726e247608c921ee45',1,'macro-use.hpp']]],

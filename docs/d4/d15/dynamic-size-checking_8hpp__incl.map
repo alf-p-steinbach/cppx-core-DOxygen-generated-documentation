@@ -1,13 +1,13 @@
 <map id="cppx&#45;core/collections/dynamic&#45;size&#45;checking.hpp" name="cppx&#45;core/collections/dynamic&#45;size&#45;checking.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="648,5,852,47"/>
-<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,184,181,225"/>
-<area shape="rect" id="node4" href="$d6/d63/fixed-size-checking_8hpp.html" title=" " alt="" coords="481,95,713,136"/>
-<area shape="rect" id="node5" href="$d0/d4b/type-assemblers_8hpp.html" title=" " alt="" coords="206,184,417,225"/>
-<area shape="rect" id="node8" title=" " alt="" coords="766,191,830,218"/>
-<area shape="rect" id="node9" title=" " alt="" coords="855,191,933,218"/>
-<area shape="rect" id="node10" title=" " alt="" coords="838,102,902,129"/>
-<area shape="rect" id="node11" title=" " alt="" coords="926,102,1025,129"/>
-<area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,273,188,329"/>
-<area shape="rect" id="node6" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="441,184,659,225"/>
-<area shape="rect" id="node7" title=" " alt="" coords="684,191,741,218"/>
+<area shape="rect" id="node1" title=" " alt="" coords="655,5,859,47"/>
+<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="494,273,663,315"/>
+<area shape="rect" id="node4" href="$d6/d63/fixed-size-checking_8hpp.html" title=" " alt="" coords="437,95,669,136"/>
+<area shape="rect" id="node5" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="5,184,216,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="616,191,680,218"/>
+<area shape="rect" id="node9" title=" " alt="" coords="705,191,783,218"/>
+<area shape="rect" id="node10" title=" " alt="" coords="859,102,923,129"/>
+<area shape="rect" id="node11" title=" " alt="" coords="947,102,1045,129"/>
+<area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="487,363,670,419"/>
+<area shape="rect" id="node6" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="240,184,459,225"/>
+<area shape="rect" id="node7" title=" " alt="" coords="483,191,541,218"/>
 </map>

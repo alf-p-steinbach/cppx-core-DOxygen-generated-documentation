@@ -1,5 +1,6 @@
 <map id="cppx&#45;core/language/syntax/macro&#45;define_tag.hpp" name="cppx&#45;core/language/syntax/macro&#45;define_tag.hpp">
-<area shape="rect" id="node1" title="$define_tag(NAME) defines NAME as a ~unique pointer type in namespace tag." alt="" coords="29,5,192,61"/>
-<area shape="rect" id="node2" href="$d0/d4b/type-assemblers_8hpp.html" title=" " alt="" coords="5,109,216,151"/>
-<area shape="rect" id="node3" title=" " alt="" coords="57,199,164,225"/>
+<area shape="rect" id="node1" title="$define_tag(NAME) defines NAME as a ~unique pointer type in namespace tag." alt="" coords="90,5,253,61"/>
+<area shape="rect" id="node2" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="66,109,277,151"/>
+<area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="5,199,175,240"/>
+<area shape="rect" id="node4" title=" " alt="" coords="199,206,306,233"/>
 </map>
