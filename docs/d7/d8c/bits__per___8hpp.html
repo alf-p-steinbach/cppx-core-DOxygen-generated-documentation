@@ -77,20 +77,18 @@ $(function() {
 <p><code>bits_per_</code> and <code>magnitude_bits_per_</code>.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d3/d7c/macro-use_8hpp_source.html">cppx-core/language/syntax/macro-use.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d1/d29/byte-types_8hpp_source.html">cppx-core/language/types/byte-types.hpp</a>&gt;</code><br />
+<code>#include &lt;c/limits.hpp&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bits_per_.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d0/d2e/bits__per___8hpp__incl.png" border="0" usemap="#cppx-core_2language_2bit-level_2bits__per___8hpp" alt=""/></div>
 <map name="cppx-core_2language_2bit-level_2bits__per___8hpp" id="cppx-core_2language_2bit-level_2bits__per___8hpp">
-<area shape="rect"  title="bits_per_ and magnitude_bits_per_." alt="" coords="153,5,344,47"/>
-<area shape="rect"  href="../../d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,184,181,225"/>
-<area shape="rect"  href="../../d1/d29/byte-types_8hpp.html" title=" " alt="" coords="164,95,333,136"/>
-<area shape="rect"  title=" " alt="" coords="358,102,422,129"/>
-<area shape="rect"  href="../../d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,273,188,329"/>
-<area shape="rect"  title=" " alt="" coords="206,191,313,218"/>
-<area shape="rect"  title=" " alt="" coords="337,191,443,218"/>
+<area shape="rect"  title="bits_per_ and magnitude_bits_per_." alt="" coords="164,5,355,47"/>
+<area shape="rect"  href="../../d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,95,181,136"/>
+<area shape="rect"  title=" " alt="" coords="206,102,313,129"/>
+<area shape="rect"  title=" " alt="" coords="337,102,401,129"/>
+<area shape="rect"  href="../../d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,184,188,240"/>
 </map>
 </div>
 </div>
@@ -105,17 +103,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a141e09e97c663ef575733dd6d8723fa5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a141e09e97c663ef575733dd6d8723fa5">cppx::CPPX_USE_STD</a> (numeric_limits)</td></tr>
+<tr class="separator:a141e09e97c663ef575733dd6d8723fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b0d61fab38c2a1efc4b265ad963219"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d35/namespacecppx_1_1bitlevel.html#ac5b0d61fab38c2a1efc4b265ad963219">cppx::bitlevel::CPPX_USE_CPPX</a> (bits_per_, magnitude_bits_per_)</td></tr>
 <tr class="separator:ac5b0d61fab38c2a1efc4b265ad963219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:accd75d4ad7ce945eeb81cc31696bae44"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#accd75d4ad7ce945eeb81cc31696bae44">cppx::bits_per_byte</a> = CHAR_BIT</td></tr>
+<tr class="separator:accd75d4ad7ce945eeb81cc31696bae44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a939689482d7e2894c64b305e3c364ca2"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a939689482d7e2894c64b305e3c364ca2"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a939689482d7e2894c64b305e3c364ca2">cppx::bits_per_</a> = sizeof( Type )*bits_per_byte</td></tr>
-<tr class="memdesc:a939689482d7e2894c64b305e3c364ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bits per object/value of the specified type.  <a href="../../d6/deb/namespacecppx.html#a939689482d7e2894c64b305e3c364ca2">More...</a><br /></td></tr>
+<tr class="memdesc:a939689482d7e2894c64b305e3c364ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usually 8, but e.g. 16 on some DSPs.  <a href="../../d6/deb/namespacecppx.html#a939689482d7e2894c64b305e3c364ca2">More...</a><br /></td></tr>
 <tr class="separator:a939689482d7e2894c64b305e3c364ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077">cppx::magnitude_bits_per_</a> = std::numeric_limits&lt;Type&gt;::digits</td></tr>
+<tr class="memitem:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077">cppx::magnitude_bits_per_</a> = numeric_limits&lt;Type&gt;::digits</td></tr>
 <tr class="memdesc:a5dc36b6a5f160c9a2653d57b86d97077"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bits that determine the magnitude, i.e. the number of value representation bits minus a sign bit, if any.  <a href="../../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077">More...</a><br /></td></tr>
 <tr class="separator:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

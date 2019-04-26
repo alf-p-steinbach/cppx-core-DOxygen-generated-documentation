@@ -8,7 +8,7 @@ var searchData=
   ['unsigned_5findex',['Unsigned_index',['../d1/d9b/namespacecppx_1_1size__types.html#ada735933763e06f35b2447fc76fbcd90',1,'cppx::size_types']]],
   ['unsigned_5fint_5f',['Unsigned_int_',['../d6/deb/namespacecppx.html#ac9fac742d3e24dc17a49c9e61313f46c',1,'cppx']]],
   ['unsigned_5fsize',['Unsigned_size',['../d1/d9b/namespacecppx_1_1size__types.html#a7b5e272c423ffecc25ebcf846b1f6b54',1,'cppx::size_types']]],
-  ['up_5fto',['up_to',['../d6/deb/namespacecppx.html#a1880d2dfb374bbb4994bc320106e1217',1,'cppx']]],
+  ['up_5fto',['up_to',['../d6/deb/namespacecppx.html#ad833e116b0fe011a1fce0b7e6d967a1f',1,'cppx']]],
   ['upper',['upper',['../db/dc0/classcppx_1_1_range__.html#a1147fb7770564b556722892440ba97d6',1,'cppx::Range_']]],
   ['use_5fascii_5fsubstitutes',['use_ascii_substitutes',['../d6/deb/namespacecppx.html#a95bfd9c133ee8c99fbe8aff415df0877',1,'cppx']]],
   ['use_5fcppx',['use_cppx',['../d3/d7c/macro-use_8hpp.html#a06c405c7505ab5a3f23c5e0c04db57d2',1,'macro-use.hpp']]],
@@ -33,6 +33,7 @@ var searchData=
   ['utf8_2dis_5fthe_5fexecution_5fcharacter_5fset_2ehpp',['utf8-is_the_execution_character_set.hpp',['../d6/d33/utf8-is__the__execution__character__set_8hpp.html',1,'']]],
   ['utf8_2diteration_2ehpp',['utf8-iteration.hpp',['../d7/dcf/utf8-iteration_8hpp.html',1,'']]],
   ['utf8_2dn_5fbytes_5ffor_2ehpp',['utf8-n_bytes_for.hpp',['../d0/d4d/utf8-n__bytes__for_8hpp.html',1,'']]],
+  ['utf8_5ffrom',['utf8_from',['../de/d76/namespacecppx_1_1fs__util.html#a4fd2a873d2f0ce2eca62e4ebc95225ab',1,'cppx::fs_util']]],
   ['utf8_5ffrom_5fcode',['utf8_from_code',['../de/db0/classcppx_1_1utf8_1_1_generator.html#a0fa01aa3eed9d9953b10317bd3525856',1,'cppx::utf8::Generator']]],
   ['utf8_5ffrom_5fcodes',['utf8_from_codes',['../de/db0/classcppx_1_1utf8_1_1_generator.html#a9297fd81f0a9dbd1bbbd12162add9982',1,'cppx::utf8::Generator::utf8_from_codes(const Span_&lt; In_iterator &gt; range, const Out_iterator destination) -&gt; Out_iterator'],['../de/db0/classcppx_1_1utf8_1_1_generator.html#a8e2360a9cdb4ac55ff114afdd3ffb800',1,'cppx::utf8::Generator::utf8_from_codes(const In_iterator first, const In_iterator beyond, const Out_iterator destination) -&gt; Out_iterator']]]
 ];

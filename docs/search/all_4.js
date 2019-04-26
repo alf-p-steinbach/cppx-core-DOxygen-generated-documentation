@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['data',['data',['../d7/d55/classcppx_1_1_matrix__.html#a6af5303a6bfb93293a1c9ab02087a4b5',1,'cppx::Matrix_::data() const'],['../d7/d55/classcppx_1_1_matrix__.html#a2c4f96283c9b48fab67a5508bce06698',1,'cppx::Matrix_::data()']]],
   ['dbginfo',['dbginfo',['../d2/d15/macro-dbginfo_8hpp.html#a48767a8faa696760bbd534395fc43a4c',1,'dbginfo():&#160;macro-dbginfo.hpp'],['../d6/deb/namespacecppx.html#a030853f65c7091a4abc58c1cf0a659dc',1,'cppx::dbginfo()']]],
   ['dc1',['DC1',['../dc/d62/namespacecppx_1_1ascii.html#a7fba279ca1d4e83d35ee4bc00cbc0619',1,'cppx::ascii']]],
   ['dc3',['DC3',['../dc/d62/namespacecppx_1_1ascii.html#ae4d68cd425a14a40e913e7c04b2114de',1,'cppx::ascii']]],

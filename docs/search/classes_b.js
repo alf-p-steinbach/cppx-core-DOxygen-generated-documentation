@@ -9,5 +9,5 @@ var searchData=
   ['span_5f',['Span_',['../d3/d84/classcppx_1_1_span__.html',1,'cppx']]],
   ['string_5fvalue_5fview_5f',['String_value_view_',['../d5/d42/classcppx_1_1_string__value__view__.html',1,'cppx']]],
   ['success',['Success',['../d7/d4d/structcppx_1_1hf_1_1_success.html',1,'cppx::hf']]],
-  ['symbol_5fstrings',['Symbol_strings',['../d6/d6d/structcppx_1_1utf8_1_1_symbol__strings.html',1,'cppx::utf8::Symbol_strings'],['../d2/d80/structcppx_1_1ascii_1_1_symbol__strings.html',1,'cppx::ascii::Symbol_strings']]]
+  ['symbol_5fstrings',['Symbol_strings',['../d2/d80/structcppx_1_1ascii_1_1_symbol__strings.html',1,'cppx::ascii::Symbol_strings'],['../d6/d6d/structcppx_1_1utf8_1_1_symbol__strings.html',1,'cppx::utf8::Symbol_strings']]]
 ];

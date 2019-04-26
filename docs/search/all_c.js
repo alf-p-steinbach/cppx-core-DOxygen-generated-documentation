@@ -16,6 +16,8 @@ var searchData=
   ['magnitude_5fbits_5fper_5f',['magnitude_bits_per_',['../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077',1,'cppx']]],
   ['map_5f',['Map_',['../d4/d5e/classcppx_1_1_map__.html',1,'cppx']]],
   ['map_5f_2ehpp',['Map_.hpp',['../dd/d76/_map___8hpp.html',1,'']]],
+  ['matrix_5f',['Matrix_',['../d7/d55/classcppx_1_1_matrix__.html',1,'cppx::Matrix_&lt; Item &gt;'],['../d7/d55/classcppx_1_1_matrix__.html#addbea18be5623a213f909dc6ba377124',1,'cppx::Matrix_::Matrix_()'],['../d7/d55/classcppx_1_1_matrix__.html#aaeee21b7d9c1e3b8a6f2fcca11beaa93',1,'cppx::Matrix_::Matrix_(const Size width, const Size height)']]],
+  ['matrix_5f_2ehpp',['Matrix_.hpp',['../dc/d32/_matrix___8hpp.html',1,'']]],
   ['max_5f',['max_',['../d6/deb/namespacecppx.html#aa65e50ba3845e78e35cca72c0425e537',1,'cppx']]],
   ['max_5fe_5f',['max_e_',['../d6/deb/namespacecppx.html#a6a6616e5f6879e4315f6ce12405cd516',1,'cppx']]],
   ['max_5fvalue',['max_value',['../db/de7/namespacecppx_1_1utf16.html#acd2d70a27a4eb877216c925c7ace152a',1,'cppx::utf16']]],

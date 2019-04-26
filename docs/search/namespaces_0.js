@@ -12,6 +12,7 @@ var searchData=
   ['cppx',['cppx',['../d6/deb/namespacecppx.html',1,'cppx'],['../da/dde/namespacecppx_1_1cppx.html',1,'cppx::cppx']]],
   ['cstdlib',['cstdlib',['../d4/d60/namespacecppx_1_1cstdlib.html',1,'cppx']]],
   ['debug',['debug',['../dc/d38/namespacecppx_1_1debug.html',1,'cppx']]],
+  ['fs_5futil',['fs_util',['../de/d76/namespacecppx_1_1fs__util.html',1,'cppx']]],
   ['hf',['hf',['../d8/de1/namespacecppx_1_1hf.html',1,'cppx']]],
   ['hopefully_5fand_5ffail',['hopefully_and_fail',['../d6/da6/namespacecppx_1_1hopefully__and__fail.html',1,'cppx']]],
   ['impl',['impl',['../de/d19/namespacecppx_1_1impl.html',1,'cppx']]],

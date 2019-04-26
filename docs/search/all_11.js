@@ -11,9 +11,11 @@ var searchData=
   ['range_5fof_5fpair_5fvalue_5f2',['range_of_pair_value_2',['../db/de7/namespacecppx_1_1utf16.html#a3b0484ab3a1cf459ed7943fa9d0d8a00',1,'cppx::utf16']]],
   ['raw_5farray_5f',['Raw_array_',['../d6/deb/namespacecppx.html#a1b9d331025c22ec7e3f2af6badcfd0cd',1,'cppx']]],
   ['raw_5farray_5fof_5f',['Raw_array_of_',['../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f',1,'cppx']]],
+  ['raw_5farray_5fspan_5f',['Raw_array_span_',['../d6/deb/namespacecppx.html#aeecd92c296ffe4f21dac60d57c9b2353',1,'cppx']]],
   ['readme_2emd',['README.md',['../d9/dd6/_r_e_a_d_m_e_8md.html',1,'']]],
   ['ref_5f',['Ref_',['../d6/d2d/namespacecppx_1_1ptr__and__ref.html#aa1e1423b9c945ef62fa277063dd189c5',1,'cppx::ptr_and_ref']]],
   ['reference',['reference',['../dc/df9/classcppx_1_1_forward__iterator__impl__.html#a3a51afb35821d3c60152dcc05b7fd428',1,'cppx::Forward_iterator_impl_']]],
+  ['release',['release',['../d7/d8d/classcppx_1_1fs__util_1_1_c__file.html#ad6bb199469d6634ac607eb888638fec2',1,'cppx::fs_util::C_file']]],
   ['repeat',['repeat',['../d5/d4e/macro-repeat_8hpp.html#a88f47a79aa968bbb4c64a245c2c14437',1,'repeat():&#160;macro-repeat.hpp'],['../d6/deb/namespacecppx.html#a0861ecfa0f42df448ad35d86e5114f7f',1,'cppx::repeat()']]],
   ['repeat_2ehpp',['repeat.hpp',['../d5/d45/repeat_8hpp.html',1,'']]],
   ['repeated',['repeated',['../da/d54/namespacecppx_1_1string__repeat.html#aa689165a74dc598fd3f67a244286211b',1,'cppx::string_repeat']]],
@@ -21,8 +23,9 @@ var searchData=
   ['require',['require',['../d5/d6e/boost-test-framework_8hpp.html#a1fb87d68de6e545d2ebc9c7ead05e684',1,'require():&#160;boost-test-framework.hpp'],['../da/d4b/google-test-framework_8hpp.html#a1fb87d68de6e545d2ebc9c7ead05e684',1,'require():&#160;google-test-framework.hpp']]],
   ['require_5feq',['require_eq',['../d5/d6e/boost-test-framework_8hpp.html#a7c347137c17f93e9756d34d3905c6b4a',1,'require_eq():&#160;boost-test-framework.hpp'],['../da/d4b/google-test-framework_8hpp.html#a7c347137c17f93e9756d34d3905c6b4a',1,'require_eq():&#160;google-test-framework.hpp']]],
   ['rethrow_5fany_5fstored_5fx',['rethrow_any_stored_x',['../d6/deb/namespacecppx.html#aab1af2226f6d43d57ff13e07e59c6b41',1,'cppx']]],
-  ['reversed',['reversed',['../d6/deb/namespacecppx.html#a2b553c301575555ba89c67cd0f7a7452',1,'cppx::reversed(const Range_&lt; Integer &gt; &amp;)=delete'],['../d6/deb/namespacecppx.html#aa5a820d0826470dd583314b1528363d1',1,'cppx::reversed(Container &amp;c) -&gt; Span_&lt; reverse_iterator&lt; decltype(begin(c))&gt;&gt;']]],
+  ['reversed',['reversed',['../d6/deb/namespacecppx.html#a2b553c301575555ba89c67cd0f7a7452',1,'cppx::reversed(const Range_&lt; Integer &gt; &amp;)=delete'],['../d6/deb/namespacecppx.html#a94d78dc0252a68b639d335524d68752b',1,'cppx::reversed(Container &amp;&amp;c) -&gt; Span_&lt; reverse_iterator&lt; decltype(begin(c))&gt;&gt;']]],
   ['right',['right',['../d6/deb/namespacecppx.html#a0117e4f0856d18e44731328a8a9f44ca',1,'cppx']]],
   ['right_5farrow_5fstr',['right_arrow_str',['../d6/d6d/structcppx_1_1utf8_1_1_symbol__strings.html#aa00363e4d8531c62e89686f37f9e7771',1,'cppx::utf8::Symbol_strings::right_arrow_str()'],['../d2/d80/structcppx_1_1ascii_1_1_symbol__strings.html#af53ea9bd8517ee1cb5343b8fdeaa267a',1,'cppx::ascii::Symbol_strings::right_arrow_str()'],['../d2/d1f/namespacecppx_1_1best__effort.html#a37b54c1da2c3905245c1c0c649f4c979',1,'cppx::best_effort::right_arrow_str()']]],
-  ['right_5fquote_5fstr',['right_quote_str',['../d6/d6d/structcppx_1_1utf8_1_1_symbol__strings.html#a3f5abd171fa371ede8b907c4eb9524dc',1,'cppx::utf8::Symbol_strings::right_quote_str()'],['../d2/d80/structcppx_1_1ascii_1_1_symbol__strings.html#aa9c4892a746affcabb90b9cdb8d6201f',1,'cppx::ascii::Symbol_strings::right_quote_str()'],['../d2/d1f/namespacecppx_1_1best__effort.html#abb864d7cf00f55ee8695a6f102b13093',1,'cppx::best_effort::right_quote_str()']]]
+  ['right_5fquote_5fstr',['right_quote_str',['../d6/d6d/structcppx_1_1utf8_1_1_symbol__strings.html#a3f5abd171fa371ede8b907c4eb9524dc',1,'cppx::utf8::Symbol_strings::right_quote_str()'],['../d2/d80/structcppx_1_1ascii_1_1_symbol__strings.html#aa9c4892a746affcabb90b9cdb8d6201f',1,'cppx::ascii::Symbol_strings::right_quote_str()'],['../d2/d1f/namespacecppx_1_1best__effort.html#abb864d7cf00f55ee8695a6f102b13093',1,'cppx::best_effort::right_quote_str()']]],
+  ['row_5fof',['row_of',['../d7/d55/classcppx_1_1_matrix__.html#a40c766ff836273e58be2241ce0f0624e',1,'cppx::Matrix_']]]
 ];

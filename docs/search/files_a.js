@@ -14,5 +14,6 @@ var searchData=
   ['macro_2duse_2ehpp',['macro-use.hpp',['../d3/d7c/macro-use_8hpp.html',1,'']]],
   ['macro_2dwith_2ehpp',['macro-with.hpp',['../de/d9e/macro-with_8hpp.html',1,'']]],
   ['map_5f_2ehpp',['Map_.hpp',['../dd/d76/_map___8hpp.html',1,'']]],
+  ['matrix_5f_2ehpp',['Matrix_.hpp',['../dc/d32/_matrix___8hpp.html',1,'']]],
   ['monospaced_5fbullet_5fblock_2ehpp',['monospaced_bullet_block.hpp',['../d6/d44/monospaced__bullet__block_8hpp.html',1,'']]]
 ];
