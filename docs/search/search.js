@@ -809,6 +809,7 @@ function init_search()
     link.innerHTML='<span class="SelectionMark">&#160;</span>'+indexSectionLabels[key];
     results.appendChild(link);
   }
-  searchBox.OnSelectItem(0);
+  searchBox.OnSelectItem(0); toggleLevel(4);
 }
 /* @license-end */
+

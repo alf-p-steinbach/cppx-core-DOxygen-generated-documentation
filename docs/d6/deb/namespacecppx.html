@@ -568,10 +568,6 @@ Functions</h2></td></tr>
 <tr class="separator:a8a7ddd0cd98dbe7d185c7860c38a67d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44c079185e0436778d2476fbcad085c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad44c079185e0436778d2476fbcad085c">infinity</a> () -&gt; double</td></tr>
 <tr class="separator:ad44c079185e0436778d2476fbcad085c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae826629e898793b226466bfb4f16de2"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:aae826629e898793b226466bfb4f16de2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aae826629e898793b226466bfb4f16de2">only_lvalue_ref_to</a> (Type &amp;c) -&gt; Type &amp;</td></tr>
-<tr class="memdesc:aae826629e898793b226466bfb4f16de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper for the <code>$items_of</code> macro, used there to prevent rvalue arguments.  <a href="#aae826629e898793b226466bfb4f16de2">More...</a><br /></td></tr>
-<tr class="separator:aae826629e898793b226466bfb4f16de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad23992b5a867e0ee090c19eaf6a0b0b0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad23992b5a867e0ee090c19eaf6a0b0b0">as_number</a> (const std::byte value) -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#acad3915adab2669b08e1971ba2ae6dda">Byte</a></td></tr>
 <tr class="separator:ad23992b5a867e0ee090c19eaf6a0b0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4ed4fc4b41360aa48f385428d5519d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac4ed4fc4b41360aa48f385428d5519d7">as_std_byte</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#acad3915adab2669b08e1971ba2ae6dda">Byte</a> value) -&gt; std::byte</td></tr>
@@ -592,6 +588,10 @@ Functions</h2></td></tr>
 <tr class="separator:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163fd8241aa22c9484b87dfe245944d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a163fd8241aa22c9484b87dfe245944d7">CPPX_USE_STD</a> (enable_if_t, is_same_v)</td></tr>
 <tr class="separator:a163fd8241aa22c9484b87dfe245944d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae826629e898793b226466bfb4f16de2"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:aae826629e898793b226466bfb4f16de2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aae826629e898793b226466bfb4f16de2">only_lvalue_ref_to</a> (Type &amp;c) -&gt; Type &amp;</td></tr>
+<tr class="memdesc:aae826629e898793b226466bfb4f16de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper for restricting macro arguments, used e.g. in <code>$items_of</code>.  <a href="#aae826629e898793b226466bfb4f16de2">More...</a><br /></td></tr>
+<tr class="separator:aae826629e898793b226466bfb4f16de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79dfc4d46ed16df7167416001a30717a"><td class="memTemplParams" colspan="2">template&lt;class Derived , class Type , class  = Enable_if_&lt;is_base_and_derived_&lt;Type, Derived&gt;&gt;&gt; </td></tr>
 <tr class="memitem:a79dfc4d46ed16df7167416001a30717a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a79dfc4d46ed16df7167416001a30717a">downcasted_to_</a> (<a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Type &gt; p) -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; Derived &gt;</td></tr>
 <tr class="separator:a79dfc4d46ed16df7167416001a30717a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -672,10 +672,11 @@ Variables</h2></td></tr>
 <tr class="memitem:a95bfd9c133ee8c99fbe8aff415df0877"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a95bfd9c133ee8c99fbe8aff415df0877">use_ascii_substitutes</a> = false</td></tr>
 <tr class="separator:a95bfd9c133ee8c99fbe8aff415df0877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accd75d4ad7ce945eeb81cc31696bae44"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#accd75d4ad7ce945eeb81cc31696bae44">bits_per_byte</a> = CHAR_BIT</td></tr>
+<tr class="memdesc:accd75d4ad7ce945eeb81cc31696bae44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usually 8, but e.g. 16 on some DSPs.  <a href="#accd75d4ad7ce945eeb81cc31696bae44">More...</a><br /></td></tr>
 <tr class="separator:accd75d4ad7ce945eeb81cc31696bae44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a939689482d7e2894c64b305e3c364ca2"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a939689482d7e2894c64b305e3c364ca2"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a939689482d7e2894c64b305e3c364ca2">bits_per_</a> = sizeof( Type )*<a class="el" href="../../d6/deb/namespacecppx.html#accd75d4ad7ce945eeb81cc31696bae44">bits_per_byte</a></td></tr>
-<tr class="memdesc:a939689482d7e2894c64b305e3c364ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usually 8, but e.g. 16 on some DSPs.  <a href="#a939689482d7e2894c64b305e3c364ca2">More...</a><br /></td></tr>
+<tr class="memdesc:a939689482d7e2894c64b305e3c364ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bits per object/value of the specified type.  <a href="#a939689482d7e2894c64b305e3c364ca2">More...</a><br /></td></tr>
 <tr class="separator:a939689482d7e2894c64b305e3c364ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a5dc36b6a5f160c9a2653d57b86d97077"><td class="memTemplItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a5dc36b6a5f160c9a2653d57b86d97077">magnitude_bits_per_</a> = numeric_limits&lt;Type&gt;::digits</td></tr>
@@ -808,7 +809,9 @@ Variables</h2></td></tr>
 <tr class="memitem:aa1ac69468371b389577af7c09f2caa42"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; 1, const Char &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa1ac69468371b389577af7c09f2caa42">empty_c_string</a> = {}</td></tr>
 <tr class="separator:aa1ac69468371b389577af7c09f2caa42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Common math/calculator constants: <a class="el" href="../../d6/deb/namespacecppx.html#aa8f65477a8c828fe3cd7ce723e9c7d55">e</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a1ddd4dea1a652fe8ac7f6473e7de277f">log2e</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a14f5bc3791fca18013fcf8f091c4618d">log10e</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a3e6203347752b6c2c789b93eecf46d8c">ln2</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a7432eb032b2c429394652f51ecc3c576">ln10</a>, <a class="el" href="../../d6/deb/namespacecppx.html#adc3c1f6ba546db778b3bb2f60fb2a607">pi</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a4fd79704ccce7f3271b91407436e79a8">inv_sqrt_pi</a>, <a class="el" href="../../d6/deb/namespacecppx.html#ad35ad3cbd21d38f46bcee873499d4274">sqrt2</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a0aa4c597b384780170edf7a55138137b">inv_sqrt2</a>, <a class="el" href="../../d6/deb/namespacecppx.html#ac842d297eece8098ea004e4dfbfe11a5">has_nan_</a> and <a class="el" href="../../d6/deb/namespacecppx.html#a15032c78f0866b0e1c2c70cebc00ae89">has_nan</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a4929b3a8e5d4d3fe994ff98bf1ea0981">nan_</a> and <a class="el" href="../../d6/deb/namespacecppx.html#a502e0260fb8af487cf2633eb8af0f33e">nan</a>, <a class="el" href="../../d6/deb/namespacecppx.html#aa10ae12d1310f5ab6343e15ced4e7ab8">has_infinity_</a> and <a class="el" href="../../d6/deb/namespacecppx.html#a6f6499cf5a43497d254a5e304ce402a2">has_infinity</a>, <a class="el" href="../../d6/deb/namespacecppx.html#a8a7ddd0cd98dbe7d185c7860c38a67d8">infinity_</a> and <a class="el" href="../../d6/deb/namespacecppx.html#ad44c079185e0436778d2476fbcad085c">infinity</a>. </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="acad3915adab2669b08e1971ba2ae6dda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acad3915adab2669b08e1971ba2ae6dda">&#9670;&nbsp;</a></span>Byte</h2>
 
@@ -823,7 +826,7 @@ Variables</h2></td></tr>
 
 <p>Default choice of byte type. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
 
 </div>
 </div>
@@ -855,7 +858,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -873,7 +876,7 @@ template&lt;class Char &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1084,7 @@ template&lt;class Type_list_1 , class Type_list_2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1099,7 +1102,7 @@ template&lt;class Char &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1118,7 @@ template&lt;class Char &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1139,7 @@ template&lt;class Some_type &gt; </div>
 <p>Creates a raw pointer type. </p>
 <p><code>P_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;*</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;*&gt;</code>. Except for missing template argument deduction ability and added verbosity it can also be expressed as <code>std::add_pointer_t&lt;T&gt;</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1158,7 +1161,7 @@ template&lt;class Some_type &gt; </div>
 <p><code>R_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;&amp;</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;&amp;&gt;</code>. Except for missing template argument deduction and added verbosity it can also be expressed as <code>std::add_lvalue_reference_t&lt;T&gt;</code>.</p>
 <p>Preferably write just <code>T&amp;</code> or <code>Type_&lt;T&gt;&amp;</code>, and not the less eye-friendly <code>R_&lt;T&gt;</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1199,7 @@ template&lt;class Item &gt; </div>
 <p><code>Raw_array_&lt;T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;[]</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;[]&gt;</code>. The C++17 standard library provides no notation for this.</p>
 <p>A raw array of unknown size can acquire a size via an initializer, e.g. <code>const Raw_array_of&lt;int&gt; numbers = {1, 2, 3};</code> (where the size is then 3). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1217,7 +1220,7 @@ template&lt;size_t n, class Item &gt; </div>
 <p>Creates a raw array type of a specified size. </p>
 <p><code>Raw_array_of_&lt;n, T&gt;</code> is the type denoted by <code>Type_&lt;T&gt;[n]</code>, wrapped up. It's equivalent to writing <code>Type_&lt;Type_&lt;T&gt;[n]&gt;</code>. The C++17 standard library provides no notation for this. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1251,7 +1254,7 @@ template&lt;class Item &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00016">16</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1329,7 @@ template&lt;class Some_type &gt; </div>
 </pre><p>although for this particular example using the <code><a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1" title="Creates a raw pointer type.">P_</a></code> type builder is more clean: </p><pre class="fragment">const P_&lt;auto()-&gt;int(&amp;)[42]&gt; fp;
 </pre><p>Credit: I first saw a template like <code>Type_</code> suggested by Johannes “litb” Schaub. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d0/d4b/type-assemblers_8hpp_source.html">type-assemblers.hpp</a>.</p>
 
 </div>
 </div>
@@ -1360,7 +1363,7 @@ template&lt;int n_bits&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/dfe/_c__str___8hpp_source.html">C_str_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1629,7 +1632,7 @@ template&lt;class Item , size_t n&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
 
 </div>
 </div>
@@ -1660,7 +1663,7 @@ template&lt;class Item , size_t n&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
 
 </div>
 </div>
@@ -1691,7 +1694,7 @@ template&lt;class Item , size_t n&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
 
 </div>
 </div>
@@ -1813,7 +1816,7 @@ template&lt;class Rep , class Period &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00018">18</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2059,7 +2062,7 @@ template&lt;class Key &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d29/byte-types_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d1/d29/byte-types_8hpp_source.html">byte-types.hpp</a>.</p>
 
 </div>
 </div>
@@ -2318,26 +2321,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a141e09e97c663ef575733dd6d8723fa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a141e09e97c663ef575733dd6d8723fa5">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[9/28]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cppx::CPPX_USE_STD </td>
-          <td>(</td>
-          <td class="paramtype">numeric_limits&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a163fd8241aa22c9484b87dfe245944d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a163fd8241aa22c9484b87dfe245944d7">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[10/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a163fd8241aa22c9484b87dfe245944d7">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[9/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2365,7 +2350,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a5332b94705b534930fcfed8c01c8c1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5332b94705b534930fcfed8c01c8c1ee">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[11/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5332b94705b534930fcfed8c01c8c1ee">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[10/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2405,7 +2390,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a78bb82d6621691c9b8e5a99bda4f7a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78bb82d6621691c9b8e5a99bda4f7a9a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[12/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bb82d6621691c9b8e5a99bda4f7a9a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[11/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2451,7 +2436,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a4b77f1057e1ba24e9c95f746d24f86e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b77f1057e1ba24e9c95f746d24f86e2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[13/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b77f1057e1ba24e9c95f746d24f86e2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[12/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2497,7 +2482,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="af3682d642a7095f340a900257668ffc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3682d642a7095f340a900257668ffc2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[14/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3682d642a7095f340a900257668ffc2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[13/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2543,7 +2528,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="ab0d1003047a3c8b9157769c1d0eb78a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d1003047a3c8b9157769c1d0eb78a4">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[15/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d1003047a3c8b9157769c1d0eb78a4">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[14/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2571,7 +2556,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a865fac76ae8453b35b58cd0fee48db8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a865fac76ae8453b35b58cd0fee48db8b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[16/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a865fac76ae8453b35b58cd0fee48db8b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[15/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2598,36 +2583,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a33ca0898df5dec4a1eb912787097c329"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ca0898df5dec4a1eb912787097c329">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[17/28]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cppx::CPPX_USE_STD </td>
-          <td>(</td>
-          <td class="paramtype">array&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bitset&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a48a9c78cf9e1de015749266096dc3261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48a9c78cf9e1de015749266096dc3261">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[18/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a9c78cf9e1de015749266096dc3261">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[16/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2673,7 +2630,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a87890b14ec45807a45c09e954eb7d64a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87890b14ec45807a45c09e954eb7d64a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[19/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a87890b14ec45807a45c09e954eb7d64a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[17/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2706,8 +2663,26 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
+<a id="a141e09e97c663ef575733dd6d8723fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141e09e97c663ef575733dd6d8723fa5">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[18/28]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cppx::CPPX_USE_STD </td>
+          <td>(</td>
+          <td class="paramtype">numeric_limits&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0adb15e733fdc6b3b1422d787bb84adf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0adb15e733fdc6b3b1422d787bb84adf">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[20/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0adb15e733fdc6b3b1422d787bb84adf">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[19/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2741,7 +2716,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a6ae1a047fb990f907c8957840c587e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ae1a047fb990f907c8957840c587e09">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[21/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae1a047fb990f907c8957840c587e09">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[20/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2769,7 +2744,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a17c066ad7ad42fba1169ebed15bfc853"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17c066ad7ad42fba1169ebed15bfc853">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[22/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c066ad7ad42fba1169ebed15bfc853">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[21/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2803,7 +2778,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a3d37e89a7f6402c683341983646f9d51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d37e89a7f6402c683341983646f9d51">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[23/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d37e89a7f6402c683341983646f9d51">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[22/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2861,7 +2836,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="af45cfcdb8c947ee8960b444a77b0de1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af45cfcdb8c947ee8960b444a77b0de1c">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[24/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af45cfcdb8c947ee8960b444a77b0de1c">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[23/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2889,7 +2864,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a26c9cf14ff852079897425b08cabc78b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26c9cf14ff852079897425b08cabc78b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[25/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c9cf14ff852079897425b08cabc78b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[24/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2958,6 +2933,34 @@ template&lt;class Key &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">stack&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33ca0898df5dec4a1eb912787097c329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ca0898df5dec4a1eb912787097c329">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[25/28]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cppx::CPPX_USE_STD </td>
+          <td>(</td>
+          <td class="paramtype">array&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bitset&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -3101,7 +3104,7 @@ template&lt;class Key &gt; </div>
 
 <p>The cube (third power) of the argument. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3284,7 +3287,7 @@ template&lt;class Type , class  = Enable_if_&lt;not is_const_&lt;Type&gt;&gt;&gt
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -3306,7 +3309,7 @@ template&lt;class Number &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -3337,7 +3340,7 @@ template&lt;class Int  = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00053">53</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3378,7 +3381,7 @@ template&lt;class Int &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3411,7 +3414,7 @@ template&lt;class Unsigned &gt; </div>
 
 <p>The position of the most significant bit in an unsigned value, or -1 for value zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/db4/intlog2_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../da/db4/intlog2_8hpp_source.html">intlog2.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/db4/intlog2_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../da/db4/intlog2_8hpp_source.html">intlog2.hpp</a>.</p>
 
 </div>
 </div>
@@ -3442,7 +3445,7 @@ template&lt;class... Ints&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3473,7 +3476,7 @@ template&lt;class... Ints&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3512,7 +3515,7 @@ template&lt;class... Ints&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3563,7 +3566,7 @@ template&lt;class Number  = double&gt; </div>
 </dl>
 <p>Essentially this is Horner's rule adapted to calculating a power, so that the number of floating point multiplications is at worst O(log2(n)). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3594,7 +3597,7 @@ template&lt;class Int  = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -3799,7 +3802,7 @@ template&lt;class Int &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -4262,7 +4265,7 @@ template&lt;class Int &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../dd/d80/integer-operations_8hpp_source.html">integer-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -4557,7 +4560,7 @@ template&lt;class Char , Size n&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d6/d63/fixed-size-checking_8hpp_source.html">fixed-size-checking.hpp</a>.</p>
 
 </div>
 </div>
@@ -4723,7 +4726,7 @@ template&lt;class Iterator &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -4745,7 +4748,7 @@ template&lt;class Number &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -4776,7 +4779,7 @@ template&lt;class Type &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>A helper for the <code>$items_of</code> macro, used there to prevent rvalue arguments. </p>
+<p>A helper for restricting macro arguments, used e.g. in <code>$items_of</code>. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d2e/only__lvalue__ref__to_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../df/d2e/only__lvalue__ref__to_8hpp_source.html">only_lvalue_ref_to.hpp</a>.</p>
 
@@ -5160,41 +5163,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="aea78d9c7e132e98f62f781696ab07302"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea78d9c7e132e98f62f781696ab07302">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Key , class Arg &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto cppx::set_difference </td>
-          <td>(</td>
-          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Arg &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
-    </td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00120">120</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a4d92fafe4a47bfbc04f204617de49ecf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d92fafe4a47bfbc04f204617de49ecf">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d92fafe4a47bfbc04f204617de49ecf">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5226,41 +5196,41 @@ template&lt;class Key , class Arg &gt; </div>
 
 </div>
 </div>
-<a id="a17978fddbba4b16645b5b4c95faf4496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17978fddbba4b16645b5b4c95faf4496">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[5/6]</span></h2>
+<a id="aea78d9c7e132e98f62f781696ab07302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea78d9c7e132e98f62f781696ab07302">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Key &gt; </div>
+template&lt;class Key , class Arg &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto cppx::set_difference </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt; Key &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unordered_set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramtype">const Arg &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt;Key&gt;&amp;&amp;
+          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
     </td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00146">146</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00120">120</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a2413e6898dd0674e6a6ceb0ccfd9b2ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2413e6898dd0674e6a6ceb0ccfd9b2ac">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2413e6898dd0674e6a6ceb0ccfd9b2ac">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5292,8 +5262,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a0bb5efd3ff68b4d257ffa6d0a6265a2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bb5efd3ff68b4d257ffa6d0a6265a2d">&#9670;&nbsp;</a></span>set_intersection() <span class="overload">[1/2]</span></h2>
+<a id="a17978fddbba4b16645b5b4c95faf4496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17978fddbba4b16645b5b4c95faf4496">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5301,32 +5271,32 @@ template&lt;class Key &gt; </div>
 template&lt;class Key &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto cppx::set_intersection </td>
+          <td class="memname">auto cppx::set_difference </td>
           <td>(</td>
-          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt; Key &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramtype">const unordered_set&lt; Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
+          <td></td><td> -&gt; <a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt;Key&gt;&amp;&amp;
     </td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00125">125</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00146">146</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a026bcca5aab3a714e3c3721184f312db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a026bcca5aab3a714e3c3721184f312db">&#9670;&nbsp;</a></span>set_intersection() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a026bcca5aab3a714e3c3721184f312db">&#9670;&nbsp;</a></span>set_intersection() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5358,8 +5328,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a3d6f72f015d764a0aae59c17b2322988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d6f72f015d764a0aae59c17b2322988">&#9670;&nbsp;</a></span>set_union() <span class="overload">[1/6]</span></h2>
+<a id="a0bb5efd3ff68b4d257ffa6d0a6265a2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb5efd3ff68b4d257ffa6d0a6265a2d">&#9670;&nbsp;</a></span>set_intersection() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5367,7 +5337,7 @@ template&lt;class Key &gt; </div>
 template&lt;class Key &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto cppx::set_union </td>
+          <td class="memname">auto cppx::set_intersection </td>
           <td>(</td>
           <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -5387,12 +5357,12 @@ template&lt;class Key &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00083">83</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00125">125</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a36ba01cd094570dca55b25465a26d688"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36ba01cd094570dca55b25465a26d688">&#9670;&nbsp;</a></span>set_union() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36ba01cd094570dca55b25465a26d688">&#9670;&nbsp;</a></span>set_union() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5424,13 +5394,13 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a930f695532c9744521f4806f4618a654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a930f695532c9744521f4806f4618a654">&#9670;&nbsp;</a></span>set_union() <span class="overload">[3/6]</span></h2>
+<a id="a3d6f72f015d764a0aae59c17b2322988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d6f72f015d764a0aae59c17b2322988">&#9670;&nbsp;</a></span>set_union() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Key , class Arg &gt; </div>
+template&lt;class Key &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto cppx::set_union </td>
@@ -5441,7 +5411,7 @@ template&lt;class Key , class Arg &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Arg &amp;&#160;</td>
+          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -5453,12 +5423,12 @@ template&lt;class Key , class Arg &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00083">83</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a6d64bccadefa6d56e5c7f950183d22c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d64bccadefa6d56e5c7f950183d22c6">&#9670;&nbsp;</a></span>set_union() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d64bccadefa6d56e5c7f950183d22c6">&#9670;&nbsp;</a></span>set_union() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5487,6 +5457,39 @@ template&lt;class Key , class Arg &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a930f695532c9744521f4806f4618a654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930f695532c9744521f4806f4618a654">&#9670;&nbsp;</a></span>set_union() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key , class Arg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cppx::set_union </td>
+          <td>(</td>
+          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Arg &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
 
 </div>
 </div>
@@ -5678,7 +5681,7 @@ template&lt;class Iterator &gt; </div>
 
 <p>The square (second power) of the argument. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d4/d27/floating-point-operations_8hpp_source.html">floating-point-operations.hpp</a>.</p>
 
 </div>
 </div>
@@ -5711,7 +5714,7 @@ template&lt;int n&gt; </div>
 
 <p>The number of 1-bits in a <code>std::bitset</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html#l00017">17</a> of file <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html">sum_of_bits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html#l00018">18</a> of file <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html">sum_of_bits.hpp</a>.</p>
 
 </div>
 </div>
@@ -5744,7 +5747,7 @@ template&lt;class Unsigned &gt; </div>
 
 <p>The number of 1-bits in an unsigned value. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html">sum_of_bits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../d3/d0c/sum__of__bits_8hpp_source.html">sum_of_bits.hpp</a>.</p>
 
 </div>
 </div>
@@ -5941,11 +5944,9 @@ template&lt;class Type &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Usually 8, but e.g. 16 on some DSPs. </p>
-<p>The number of bits per object/value of the specified type.</p>
-<p>On 2019 computers this is generally <code>bits_per_&lt;Type&gt; - std::is_signed_v&lt;Type&gt;</code>. </p>
+<p>The number of bits per object/value of the specified type. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
 
 </div>
 </div>
@@ -5961,7 +5962,9 @@ template&lt;class Type &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00014">14</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
+<p>Usually 8, but e.g. 16 on some DSPs. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00018">18</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
 
 </div>
 </div>
@@ -6029,7 +6032,7 @@ template&lt;class Possible_subset , class Main_set &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6068,7 +6071,7 @@ template&lt;class T &gt; </div>
 <p>The difference between 1 and the least floating point value greater than 1. </p>
 <p>The expression <code>epsilon_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::epsilon()</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00147">147</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00157">157</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6084,7 +6087,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6102,7 +6105,7 @@ template&lt;class Number  = double&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6136,7 +6139,7 @@ template&lt;class Collection &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6154,7 +6157,7 @@ template&lt;class Number  = double&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6170,7 +6173,7 @@ template&lt;class Number  = double&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6186,7 +6189,7 @@ template&lt;class Number  = double&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6204,7 +6207,7 @@ template&lt;class T , class U &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6312,7 +6315,7 @@ template&lt;class Base , class Derived &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6330,7 +6333,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6348,7 +6351,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6366,7 +6369,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6384,7 +6387,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6407,7 +6410,7 @@ template&lt;class T &gt; </div>
 <p>IEC 559 is just the European name of the IEEE 754 floating point standard.</p>
 <p>Note that (at the writing of this documentation) both the Visual C++ and g++ compilers report IEEE 754 conformance when their fast-math options are used, which in particular causes incorrect NaN-checking, i.e. non-conformance. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6425,7 +6428,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6443,7 +6446,7 @@ template&lt;class T , class U &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6461,7 +6464,7 @@ template&lt;class Int &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6479,7 +6482,7 @@ template&lt;class Int &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html#l00060">60</a> of file <a class="el" href="../../d2/d2b/basic-type-traits_8hpp_source.html">basic-type-traits.hpp</a>.</p>
 
 </div>
 </div>
@@ -6500,7 +6503,7 @@ template&lt;class T &gt; </div>
 <p>The largest representable-as-positive absolute value of the type. </p>
 <p><code>largest_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::max()</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00097">97</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6516,7 +6519,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6532,7 +6535,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6548,7 +6551,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6564,7 +6567,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6585,7 +6588,7 @@ template&lt;class Type &gt; </div>
 <p>The number of bits that determine the magnitude, i.e. the number of value representation bits minus a sign bit, if any. </p>
 <p>On 2019 computers this is generally <code>bits_per_&lt;Type&gt; - std::is_signed_v&lt;Type&gt;</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/d8c/bits__per___8hpp_source.html">bits_per_.hpp</a>.</p>
 
 </div>
 </div>
@@ -6606,7 +6609,7 @@ template&lt;class T &gt; </div>
 <p>The largest positive value of the type. </p>
 <p>The expression <code>max_&lt;T&gt;</code> is an alias for <code>largest_&lt;T&gt;</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00110">110</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6627,7 +6630,7 @@ template&lt;class T &gt; </div>
 <p>FP only. E-notation maximum (largest positive) exponent value. </p>
 <p>The expression <code>max_e_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::max_exponent10</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6649,7 +6652,7 @@ template&lt;class T &gt; </div>
 <p>For integer <code>T</code> the expression <code>min_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::min()</code>, which is usually/always <code>-largest_&lt;T&gt; - 1</code>.</p>
 <p>For floating point <code>T</code> the expression <code>min_&lt;T&gt;</code> is an alias for <code>-largest_&lt;T&gt;</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00119">119</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6670,7 +6673,7 @@ template&lt;class T &gt; </div>
 <p>FP only. E-notation minimum (largest negative) exponent value. </p>
 <p>The expression <code>min_e_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::min_exponent10</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6691,7 +6694,7 @@ template&lt;class T &gt; </div>
 <p>Number of decimal digits that guaranteed can be represented. </p>
 <p>The expression <code>n_digits_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::digits10</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00129">129</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00139">139</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6707,7 +6710,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>
@@ -6729,7 +6732,7 @@ template&lt;class T &gt; </div>
 <p>The C++ standard requires integer types to be represented in binary, as either two's complement (now universal), ones' complement or sign and magnitude. From C++20 it will require two's complement form. However, it allows a floating point type to use a representation in some other numeral system such as 10, decimal.</p>
 <p>The expression <code>radix_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::radix</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00141">141</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00151">151</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6750,7 +6753,7 @@ template&lt;class T &gt; </div>
 <p>The smallest non-zero absolute value of the type. </p>
 <p>For integer <code>T</code> this is just 1, and for floating point <code>T</code> the expression <code>smallest_&lt;T&gt;</code> is an alias for <code>std::numeric_limits&lt;T&gt;::min()</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../d1/dc4/number-type-properties_8hpp_source.html">number-type-properties.hpp</a>.</p>
 
 </div>
 </div>
@@ -6766,7 +6769,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html#l00053">53</a> of file <a class="el" href="../../d3/d71/named-numbers_8hpp_source.html">named-numbers.hpp</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="cppx&#45;core/language/types/C_str_.hpp" name="cppx&#45;core/language/types/C_str_.hpp">
-<area shape="rect" id="node1" title="Simple C string pointer type names such as C_str for char const*." alt="" coords="213,5,361,47"/>
+<area shape="rect" id="node1" title="C_str for char const*; Wide_c_str for wchar_t const*; and Mutable_c_str and Mutable_wide_c_str as dit..." alt="" coords="213,5,361,47"/>
 <area shape="rect" id="node2" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="199,95,375,136"/>
 <area shape="rect" id="node3" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="5,184,216,225"/>
 <area shape="rect" id="node4" title=" " alt="" coords="128,273,235,300"/>

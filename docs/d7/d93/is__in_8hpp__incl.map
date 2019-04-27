@@ -1,6 +1,6 @@
 <map id="cppx&#45;core/collections/is_in.hpp" name="cppx&#45;core/collections/is_in.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="635,5,804,47"/>
-<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="47,184,216,225"/>
+<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="47,184,216,225"/>
 <area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="26,95,237,136"/>
 <area shape="rect" id="node6" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="261,95,480,136"/>
 <area shape="rect" id="node8" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="504,95,652,136"/>

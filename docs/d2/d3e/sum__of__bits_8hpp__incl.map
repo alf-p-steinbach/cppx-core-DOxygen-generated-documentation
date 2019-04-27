@@ -1,7 +1,7 @@
 <map id="cppx&#45;core/language/bit&#45;level/sum_of_bits.hpp" name="cppx&#45;core/language/bit&#45;level/sum_of_bits.hpp">
 <area shape="rect" id="node1" title="sum_of_bits, the number of 1&#45;bits in a std::bitset or unsigned value." alt="" coords="225,5,429,47"/>
-<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,184,181,225"/>
-<area shape="rect" id="node4" href="$d7/d8c/bits__per___8hpp.html" title="bits_per_ and magnitude_bits_per_." alt="" coords="156,95,347,136"/>
+<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,184,181,225"/>
+<area shape="rect" id="node4" href="$d7/d8c/bits__per___8hpp.html" title="bits_per_ and magnitude_bits_per_, plus the for&#45;readability constant bits_per_byte." alt="" coords="156,95,347,136"/>
 <area shape="rect" id="node7" title=" " alt="" coords="371,102,435,129"/>
 <area shape="rect" id="node8" title=" " alt="" coords="459,102,558,129"/>
 <area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,273,188,329"/>

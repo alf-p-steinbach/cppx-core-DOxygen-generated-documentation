@@ -1,5 +1,5 @@
 <map id="cppx&#45;core/language/syntax/macro&#45;items_of.hpp" name="cppx&#45;core/language/syntax/macro&#45;items_of.hpp">
-<area shape="rect" id="node1" title="$items_of eases use of standard library functions, e.g. sort( $items_of( numbers ) )." alt="" coords="76,5,231,61"/>
-<area shape="rect" id="node2" href="$df/d2e/only__lvalue__ref__to_8hpp.html" title="Provides the only_lvalue_ref_to helper for the $items_of macro." alt="" coords="5,109,160,165"/>
-<area shape="rect" id="node3" title=" " alt="" coords="185,124,263,151"/>
+<area shape="rect" id="node1" title="$items_of eases use of standard library functions, e.g. sort( $items_of( numbers ) )." alt="" coords="97,5,251,61"/>
+<area shape="rect" id="node2" href="$df/d2e/only__lvalue__ref__to_8hpp.html" title="Provides the only_lvalue_ref_to helper for restricting macro arguments." alt="" coords="5,109,188,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="212,117,291,143"/>
 </map>

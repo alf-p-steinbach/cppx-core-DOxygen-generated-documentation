@@ -1,9 +1,10 @@
 <map id="cppx&#45;core/meta&#45;macro/all.hpp" name="cppx&#45;core/meta&#45;macro/all.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="314,5,477,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="334,5,497,47"/>
 <area shape="rect" id="node2" href="$d2/d63/macro-apply_8hpp.html" title="$apply invokes the specified single&#45;argument macro with each of the specified arguments." alt="" coords="215,102,378,143"/>
-<area shape="rect" id="node3" href="$d4/d63/macro-n__arguments_8hpp.html" title="The $n_arguments macro evaluates to the number of arguments that are passed to it." alt="" coords="115,199,291,240"/>
-<area shape="rect" id="node4" href="$de/dd0/macro-invoke__macro_8hpp.html" title="Mostly this is a concession to the idiosyncracies of Visual C++, which still as of its 2017 version i..." alt="" coords="237,288,420,329"/>
-<area shape="rect" id="node5" href="$d5/d39/macro-joined_8hpp.html" title="$joined forms the ## concatenation of the expansions of its arguments." alt="" coords="366,199,529,240"/>
-<area shape="rect" id="node6" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="403,95,585,151"/>
+<area shape="rect" id="node3" href="$d4/d63/macro-n__arguments_8hpp.html" title="The $n_arguments macro evaluates to the number of arguments that are passed to it." alt="" coords="86,199,262,240"/>
+<area shape="rect" id="node4" href="$de/dd0/macro-invoke__macro_8hpp.html" title="Mostly this is a concession to the idiosyncracies of Visual C++, which still as of its 2017 version i..." alt="" coords="208,288,391,329"/>
+<area shape="rect" id="node5" href="$d5/d39/macro-joined_8hpp.html" title="$joined forms the ## concatenation of the expansions of its arguments." alt="" coords="337,199,499,240"/>
+<area shape="rect" id="node6" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="453,95,636,151"/>
 <area shape="rect" id="node7" href="$d5/d4e/macro-repeat_8hpp.html" title="$repeat(n, what) produces the what text n times." alt="" coords="29,102,191,143"/>
+<area shape="rect" id="node8" href="$df/d2e/only__lvalue__ref__to_8hpp.html" title="Provides the only_lvalue_ref_to helper for restricting macro arguments." alt="" coords="712,102,895,143"/>
 </map>

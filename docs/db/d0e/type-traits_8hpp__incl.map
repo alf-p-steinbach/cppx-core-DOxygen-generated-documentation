@@ -1,7 +1,7 @@
 <map id="cppx&#45;core/meta&#45;type/type&#45;traits.hpp" name="cppx&#45;core/meta&#45;type/type&#45;traits.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="468,5,623,47"/>
 <area shape="rect" id="node2" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="28,184,239,225"/>
-<area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="49,363,218,404"/>
+<area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="49,363,218,404"/>
 <area shape="rect" id="node5" href="$d2/d2b/basic-type-traits_8hpp.html" title="is_base_and_derived_, is_same_type_, is_a_, is_const_, is_class_, is_fixed_point_,..." alt="" coords="447,184,651,225"/>
 <area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="595,273,743,315"/>
 <area shape="rect" id="node8" title=" " alt="" coords="694,370,765,397"/>

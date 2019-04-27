@@ -1,12 +1,12 @@
 <map id="cppx&#45;core/text/unicode/utf16&#45;n_units_for.hpp" name="cppx&#45;core/text/unicode/utf16&#45;n_units_for.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="330,5,506,47"/>
 <area shape="rect" id="node2" href="$dd/deb/_count__iterator___8hpp.html" title=" " alt="" coords="849,184,1011,225"/>
-<area shape="rect" id="node5" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="36,273,205,315"/>
+<area shape="rect" id="node5" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="36,273,205,315"/>
 <area shape="rect" id="node7" href="$df/df4/utf16-_generator_8hpp.html" title=" " alt="" coords="330,95,506,136"/>
 <area shape="rect" id="node3" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="438,273,657,315"/>
 <area shape="rect" id="node4" title=" " alt="" coords="772,281,851,307"/>
 <area shape="rect" id="node6" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="29,363,212,419"/>
-<area shape="rect" id="node8" href="$d7/d8c/bits__per___8hpp.html" title="bits_per_ and magnitude_bits_per_." alt="" coords="25,184,216,225"/>
+<area shape="rect" id="node8" href="$d7/d8c/bits__per___8hpp.html" title="bits_per_ and magnitude_bits_per_, plus the for&#45;readability constant bits_per_byte." alt="" coords="25,184,216,225"/>
 <area shape="rect" id="node9" href="$d7/d4f/unicode-_code__point__generator_8hpp.html" title=" " alt="" coords="291,184,545,225"/>
 <area shape="rect" id="node10" title=" " alt="" coords="275,281,367,307"/>
 <area shape="rect" id="node11" href="$dc/df3/utf16-surrogate-pairs_8hpp.html" title=" " alt="" coords="569,184,773,225"/>

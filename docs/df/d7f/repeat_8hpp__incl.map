@@ -1,6 +1,6 @@
 <map id="cppx&#45;core/misc/repeat.hpp" name="cppx&#45;core/misc/repeat.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="107,5,305,32"/>
-<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements." alt="" coords="12,80,181,121"/>
+<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,80,181,121"/>
 <area shape="rect" id="node4" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="206,80,425,121"/>
 <area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,169,188,225"/>
 <area shape="rect" id="node5" title=" " alt="" coords="237,184,343,211"/>
