@@ -1,7 +1,8 @@
 <map id="cppx&#45;core/language/types/Truth.hpp" name="cppx&#45;core/language/types/Truth.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="181,5,329,47"/>
+<area shape="rect" id="node1" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="231,5,379,47"/>
 <area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,95,181,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="206,102,305,129"/>
-<area shape="rect" id="node5" title=" " alt="" coords="329,102,400,129"/>
+<area shape="rect" id="node4" href="$d4/d6c/basic-_enable__if___8hpp.html" title="Enable_if_ is just more readable than enable_if_t." alt="" coords="206,95,403,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="427,102,526,129"/>
 <area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,184,188,240"/>
+<area shape="rect" id="node5" title=" " alt="" coords="269,199,340,225"/>
 </map>

@@ -1,11 +1,11 @@
 <map id="cppx&#45;core/collections/Range_.hpp" name="cppx&#45;core/collections/Range_.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="624,5,794,47"/>
-<area shape="rect" id="node2" href="$d0/dda/_forward__iterator__impl___8hpp.html" title=" " alt="" coords="438,95,649,136"/>
-<area shape="rect" id="node7" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="659,184,807,225"/>
-<area shape="rect" id="node9" title=" " alt="" coords="746,102,853,129"/>
-<area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="536,273,706,315"/>
-<area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="269,184,480,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="82,281,189,307"/>
-<area shape="rect" id="node6" href="$dc/d82/signed-size-types_8hpp.html" title=" " alt="" coords="26,184,245,225"/>
-<area shape="rect" id="node8" title=" " alt="" coords="504,191,583,218"/>
+<area shape="rect" id="node1" title=" " alt="" coords="589,5,759,47"/>
+<area shape="rect" id="node2" href="$d0/dda/_forward__iterator__impl___8hpp.html" title=" " alt="" coords="369,95,579,136"/>
+<area shape="rect" id="node7" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="659,184,807,225"/>
+<area shape="rect" id="node9" title=" " alt="" coords="711,102,818,129"/>
+<area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="463,273,632,315"/>
+<area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="26,184,237,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="78,281,185,307"/>
+<area shape="rect" id="node6" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="365,184,583,225"/>
+<area shape="rect" id="node8" title=" " alt="" coords="261,191,340,218"/>
 </map>

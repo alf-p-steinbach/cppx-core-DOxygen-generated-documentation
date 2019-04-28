@@ -11,7 +11,7 @@ var searchData=
   ['signed_2dsize_2dtypes_2ehpp',['signed-size-types.hpp',['../dc/d82/signed-size-types_8hpp.html',1,'']]],
   ['signed_5f',['Signed_',['../d8/dbe/namespacecppx_1_1type__makers.html#a4e79bf30c7fbba6302fa56aff959a82f',1,'cppx::type_makers']]],
   ['signed_5fbyte',['Signed_byte',['../d6/deb/namespacecppx.html#abd4cdc4bc28bb2f9966e1674147b7738',1,'cppx']]],
-  ['size',['size',['../db/dc0/classcppx_1_1_range__.html#ad77222fd8402c25c6e7282205a11f1ea',1,'cppx::Range_::size()'],['../d1/d9b/namespacecppx_1_1size__types.html#a81c80e3814b9c1bf4116006d93668f01',1,'cppx::size_types::Size()']]],
+  ['size',['size',['../db/dc0/classcppx_1_1_range__.html#ad77222fd8402c25c6e7282205a11f1ea',1,'cppx::Range_::size()'],['../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6',1,'cppx::Size()']]],
   ['smallest_5f',['smallest_',['../d6/deb/namespacecppx.html#ae1cd42cec3bc96e2e4a534b8906bd22f',1,'cppx']]],
   ['sorted_5fmap_5f',['Sorted_map_',['../df/d59/classcppx_1_1_sorted__map__.html',1,'cppx']]],
   ['sorted_5fmap_5f_2ehpp',['Sorted_map_.hpp',['../d6/d32/_sorted__map___8hpp.html',1,'']]],

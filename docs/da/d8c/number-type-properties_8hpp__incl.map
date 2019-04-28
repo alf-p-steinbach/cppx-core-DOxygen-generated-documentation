@@ -1,9 +1,9 @@
 <map id="cppx&#45;core/language/calc/number&#45;type&#45;properties.hpp" name="cppx&#45;core/language/calc/number&#45;type&#45;properties.hpp">
-<area shape="rect" id="node1" title="Concise, clear &amp; consistent notation for number type properties: is_ieee_754_, largest_,..." alt="" coords="171,5,417,47"/>
+<area shape="rect" id="node1" title="Concise, clear &amp; consistent notation for number type properties: is_ieee_754_, largest_,..." alt="" coords="237,5,484,47"/>
 <area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,184,181,225"/>
-<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="164,95,312,136"/>
-<area shape="rect" id="node5" title=" " alt="" coords="301,191,399,218"/>
-<area shape="rect" id="node7" title=" " alt="" coords="387,102,451,129"/>
+<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="231,95,379,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="427,191,526,218"/>
+<area shape="rect" id="node7" title=" " alt="" coords="454,102,518,129"/>
 <area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,273,188,329"/>
-<area shape="rect" id="node6" title=" " alt="" coords="205,191,276,218"/>
+<area shape="rect" id="node5" href="$d4/d6c/basic-_enable__if___8hpp.html" title="Enable_if_ is just more readable than enable_if_t." alt="" coords="206,184,403,225"/>
 </map>

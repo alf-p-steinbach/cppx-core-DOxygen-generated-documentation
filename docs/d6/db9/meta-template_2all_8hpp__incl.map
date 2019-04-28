@@ -1,8 +1,8 @@
 <map id="cppx&#45;core/meta&#45;template/all.hpp" name="cppx&#45;core/meta&#45;template/all.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="130,5,313,47"/>
-<area shape="rect" id="node2" href="$dd/d92/_enable__if___8hpp.html" title=" " alt="" coords="22,95,205,136"/>
-<area shape="rect" id="node4" href="$dc/de9/_type__list___8hpp.html" title=" " alt="" coords="238,95,421,136"/>
-<area shape="rect" id="node3" href="$d4/d6c/basic-_enable__if___8hpp.html" title="Enable_if_ is just more readable than enable_if_t." alt="" coords="5,184,203,225"/>
-<area shape="rect" id="node5" href="$d2/d2b/basic-type-traits_8hpp.html" title="is_base_and_derived_, is_same_type_, is_a_, is_const_, is_class_, is_fixed_point_,..." alt="" coords="227,184,431,225"/>
-<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="325,273,473,315"/>
+<area shape="rect" id="node1" title=" " alt="" coords="136,5,319,47"/>
+<area shape="rect" id="node2" href="$dd/d92/_enable__if___8hpp.html" title=" " alt="" coords="5,184,188,225"/>
+<area shape="rect" id="node4" href="$dc/de9/_type__list___8hpp.html" title=" " alt="" coords="223,95,405,136"/>
+<area shape="rect" id="node3" href="$d4/d6c/basic-_enable__if___8hpp.html" title="Enable_if_ is just more readable than enable_if_t." alt="" coords="133,363,330,404"/>
+<area shape="rect" id="node5" href="$d2/d2b/basic-type-traits_8hpp.html" title="is_base_and_derived_, is_same_type_, is_a_, is_const_, is_class_, is_fixed_point_,..." alt="" coords="212,184,416,225"/>
+<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="240,273,388,315"/>
 </map>

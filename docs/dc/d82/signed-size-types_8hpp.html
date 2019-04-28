@@ -67,21 +67,31 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">signed-size-types.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;c/stddef.hpp&gt;</code><br />
-<code>#include &lt;type_traits&gt;</code><br />
+
+<p>Signed <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> and <a class="el" href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">Index</a>, plus unsigned equivalents <a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">Unsigned_size</a> and <a class="el" href="../../d6/deb/namespacecppx.html#ac190c571243aaffda9a5dceb7ab74d9e">Unsigned_index</a>.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d3/d7c/macro-use_8hpp_source.html">cppx-core/language/syntax/macro-use.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d6a/type-makers_8hpp_source.html">cppx-core/language/types/type-makers.hpp</a>&gt;</code><br />
+<code>#include &lt;c/stddef.hpp&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for signed-size-types.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/d87/signed-size-types_8hpp__incl.png" border="0" usemap="#cppx-core_2language_2types_2signed-size-types_8hpp" alt=""/></div>
 <map name="cppx-core_2language_2types_2signed-size-types_8hpp" id="cppx-core_2language_2types_2signed-size-types_8hpp">
-<area shape="rect"  title=" " alt="" coords="12,5,231,47"/>
-<area shape="rect"  title=" " alt="" coords="5,95,112,121"/>
-<area shape="rect"  title=" " alt="" coords="136,95,235,121"/>
+<area shape="rect"  title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="245,5,463,47"/>
+<area shape="rect"  href="../../d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,273,181,315"/>
+<area shape="rect"  href="../../d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="266,95,442,136"/>
+<area shape="rect"  title=" " alt="" coords="267,281,374,307"/>
+<area shape="rect"  href="../../d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,363,188,419"/>
+<area shape="rect"  href="../../d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="73,184,283,225"/>
+<area shape="rect"  title=" " alt="" coords="359,191,416,218"/>
+<area shape="rect"  title=" " alt="" coords="441,191,539,218"/>
 </map>
 </div>
 </div>
@@ -96,16 +106,29 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a81c80e3814b9c1bf4116006d93668f01"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9b/namespacecppx_1_1size__types.html#a81c80e3814b9c1bf4116006d93668f01">cppx::size_types::Size</a> = std::make_signed_t&lt; size_t &gt;</td></tr>
-<tr class="separator:a81c80e3814b9c1bf4116006d93668f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95c691624eaf7db1cc6de0be149d1502"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9b/namespacecppx_1_1size__types.html#a95c691624eaf7db1cc6de0be149d1502">cppx::size_types::Index</a> = Size</td></tr>
-<tr class="separator:a95c691624eaf7db1cc6de0be149d1502"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5e272c423ffecc25ebcf846b1f6b54"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9b/namespacecppx_1_1size__types.html#a7b5e272c423ffecc25ebcf846b1f6b54">cppx::size_types::Unsigned_size</a> = size_t</td></tr>
-<tr class="separator:a7b5e272c423ffecc25ebcf846b1f6b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada735933763e06f35b2447fc76fbcd90"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9b/namespacecppx_1_1size__types.html#ada735933763e06f35b2447fc76fbcd90">cppx::size_types::Unsigned_index</a> = Unsigned_size</td></tr>
-<tr class="separator:ada735933763e06f35b2447fc76fbcd90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b779262e04425e1e7d0395e516935a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">cppx::Size</a> = Signed_&lt; size_t &gt;</td></tr>
+<tr class="memdesc:a8b779262e04425e1e7d0395e516935a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Signed_ equivalent of <code>size_t</code>.  <a href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">More...</a><br /></td></tr>
+<tr class="separator:a8b779262e04425e1e7d0395e516935a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61282bfaa12a91bcac2e4305bc25457"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">cppx::Index</a> = Size</td></tr>
+<tr class="memdesc:aa61282bfaa12a91bcac2e4305bc25457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> but with name signifying use as index.  <a href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">More...</a><br /></td></tr>
+<tr class="separator:aa61282bfaa12a91bcac2e4305bc25457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007d52c7a26041952e94762ce2a6e3b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">cppx::Unsigned_size</a> = size_t</td></tr>
+<tr class="separator:a007d52c7a26041952e94762ce2a6e3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac190c571243aaffda9a5dceb7ab74d9e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac190c571243aaffda9a5dceb7ab74d9e">cppx::Unsigned_index</a> = Unsigned_size</td></tr>
+<tr class="separator:ac190c571243aaffda9a5dceb7ab74d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad90875a519c88e7104dd399e6e477f67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d9b/namespacecppx_1_1size__types.html#ad90875a519c88e7104dd399e6e477f67">cppx::size_types::CPPX_USE_CPPX</a> (Size, Index, Unsigned_size, Unsigned_index)</td></tr>
+<tr class="separator:ad90875a519c88e7104dd399e6e477f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Signed <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> and <a class="el" href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">Index</a>, plus unsigned equivalents <a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">Unsigned_size</a> and <a class="el" href="../../d6/deb/namespacecppx.html#ac190c571243aaffda9a5dceb7ab74d9e">Unsigned_index</a>. </p>
+<p>For historical reasons the standard library often (but not always) uses the unsigned size type <code>size_t</code>. In expressions that mix signed and unsigned types this can cause inadvertent conversion to unsigned type of a negative value, then creating an unintended very large value. E.g. <code>"Hello"s.length() &lt; -2</code> is <em>guaranteed</em> true, which is very silly – until you encounter the effect as an inexplicable bug.</p>
+<p>For this reason C++20 will finally add <code>std::ssize()</code> as a signed result size function. It returns <code>ptrdiff_t</code>. The signed types defined here are in practice equivalent except on a 16-bit system where <code>ptrdiff_t</code> in practice will be 32 bits, which on such system can incur some inefficiency, while the <code>Size</code> defined here will be 16 bits on a 16-bit system (but I have no 16-bit system to test on). </p>
+
+<p class="definition">Definition in file <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html">signed-size-types.hpp</a>.</p>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

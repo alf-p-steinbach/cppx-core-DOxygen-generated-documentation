@@ -1,12 +1,12 @@
 <map id="cppx&#45;core/collections/Sorted_set_.hpp" name="cppx&#45;core/collections/Sorted_set_.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="485,5,654,47"/>
-<area shape="rect" id="node2" href="$d4/d6b/_range___8hpp.html" title=" " alt="" coords="406,95,576,136"/>
-<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="453,288,601,329"/>
-<area shape="rect" id="node6" title=" " alt="" coords="190,377,261,404"/>
-<area shape="rect" id="node8" href="$d0/d4c/macro-define__tag_8hpp.html" title="$define_tag(NAME) defines NAME as a ~unique pointer type in namespace tag." alt="" coords="34,184,196,240"/>
-<area shape="rect" id="node9" title=" " alt="" coords="688,102,822,129"/>
-<area shape="rect" id="node10" title=" " alt="" coords="847,102,890,129"/>
-<area shape="rect" id="node3" href="$d0/dda/_forward__iterator__impl___8hpp.html" title=" " alt="" coords="351,191,562,233"/>
-<area shape="rect" id="node7" title=" " alt="" coords="220,199,327,225"/>
-<area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="90,288,300,329"/>
+<area shape="rect" id="node1" title=" " alt="" coords="589,5,758,47"/>
+<area shape="rect" id="node2" href="$d4/d6b/_range___8hpp.html" title=" " alt="" coords="405,95,574,136"/>
+<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="497,288,645,329"/>
+<area shape="rect" id="node7" href="$d0/d4c/macro-define__tag_8hpp.html" title="$define_tag(NAME) defines NAME as a ~unique pointer type in namespace tag." alt="" coords="5,184,168,240"/>
+<area shape="rect" id="node8" title=" " alt="" coords="659,102,794,129"/>
+<area shape="rect" id="node9" title=" " alt="" coords="818,102,889,129"/>
+<area shape="rect" id="node10" title=" " alt="" coords="913,102,956,129"/>
+<area shape="rect" id="node3" href="$d0/dda/_forward__iterator__impl___8hpp.html" title=" " alt="" coords="192,191,403,233"/>
+<area shape="rect" id="node6" title=" " alt="" coords="427,199,533,225"/>
+<area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="87,288,297,329"/>
 </map>

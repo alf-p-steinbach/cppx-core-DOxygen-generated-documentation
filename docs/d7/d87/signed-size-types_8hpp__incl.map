@@ -1,5 +1,10 @@
 <map id="cppx&#45;core/language/types/signed&#45;size&#45;types.hpp" name="cppx&#45;core/language/types/signed&#45;size&#45;types.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="12,5,231,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,112,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="136,95,235,121"/>
+<area shape="rect" id="node1" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="245,5,463,47"/>
+<area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,273,181,315"/>
+<area shape="rect" id="node4" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="266,95,442,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="267,281,374,307"/>
+<area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="5,363,188,419"/>
+<area shape="rect" id="node5" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="73,184,283,225"/>
+<area shape="rect" id="node7" title=" " alt="" coords="359,191,416,218"/>
+<area shape="rect" id="node8" title=" " alt="" coords="441,191,539,218"/>
 </map>

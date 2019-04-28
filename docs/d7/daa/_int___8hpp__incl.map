@@ -1,5 +1,9 @@
 <map id="cppx&#45;core/language/types/Int_.hpp" name="cppx&#45;core/language/types/Int_.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="47,5,195,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,112,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="136,95,235,121"/>
+<area shape="rect" id="node1" title="Integer types templated on exact number of bits: Int_ and Unsigned_int_." alt="" coords="295,5,443,47"/>
+<area shape="rect" id="node2" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="199,95,375,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="399,102,505,129"/>
+<area shape="rect" id="node3" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="5,184,216,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="128,273,235,300"/>
+<area shape="rect" id="node5" title=" " alt="" coords="291,191,349,218"/>
+<area shape="rect" id="node6" title=" " alt="" coords="373,191,472,218"/>
 </map>

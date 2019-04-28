@@ -188,6 +188,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dbe/structcppx_1_1_tail__t___3_01_type__list___3_01_a__type_00_01_more__types_8_8_8_01_4_01_4.html">Tail_t_&lt; Type_list_&lt; A_type, More_types... &gt; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2f/classcppx_1_1_truth.html">Truth</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A drop-in replacement for <code>bool</code> without implicit conversion to types other than <code>bool</code>.  <a href="../../df/d2f/classcppx_1_1_truth.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d37/structcppx_1_1_type__list__.html">Type_list_</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,12 +247,24 @@ Typedefs</h2></td></tr>
 <tr class="separator:a778176e45b30cdd09fbb1899d5ad5a85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e7ece9aef36b9bed4573dff9fcbfbfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8e7ece9aef36b9bed4573dff9fcbfbfd">Mutable_wide_c_str</a> = <a class="el" href="../../d6/deb/namespacecppx.html#ab9e191f1bfea9a03e69c20a717e7a77a">Mutable_c_str_</a>&lt; wchar_t &gt;</td></tr>
 <tr class="separator:a8e7ece9aef36b9bed4573dff9fcbfbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3db465d10e59ead41950b6d3ba3ddc1"><td class="memTemplParams" colspan="2">template&lt;int n_bits&gt; </td></tr>
-<tr class="memitem:af3db465d10e59ead41950b6d3ba3ddc1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#af3db465d10e59ead41950b6d3ba3ddc1">Int_</a> = typename <a class="el" href="../../d2/d33/structcppx_1_1impl_1_1_int__t__.html">impl::Int_t_</a>&lt; n_bits &gt;::T</td></tr>
-<tr class="separator:af3db465d10e59ead41950b6d3ba3ddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9fac742d3e24dc17a49c9e61313f46c"><td class="memTemplParams" colspan="2">template&lt;int n_bits&gt; </td></tr>
-<tr class="memitem:ac9fac742d3e24dc17a49c9e61313f46c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac9fac742d3e24dc17a49c9e61313f46c">Unsigned_int_</a> = std::make_unsigned_t&lt; <a class="el" href="../../d6/deb/namespacecppx.html#af3db465d10e59ead41950b6d3ba3ddc1">Int_</a>&lt; n_bits &gt; &gt;</td></tr>
-<tr class="separator:ac9fac742d3e24dc17a49c9e61313f46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae8c80b226eb8808a35e23d7f9ba6b5"><td class="memTemplParams" colspan="2">template&lt;int n_bits&gt; </td></tr>
+<tr class="memitem:aeae8c80b226eb8808a35e23d7f9ba6b5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aeae8c80b226eb8808a35e23d7f9ba6b5">Int_</a> = ...</td></tr>
+<tr class="memdesc:aeae8c80b226eb8808a35e23d7f9ba6b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer types parameterized by exact width in bits.  <a href="#aeae8c80b226eb8808a35e23d7f9ba6b5">More...</a><br /></td></tr>
+<tr class="separator:aeae8c80b226eb8808a35e23d7f9ba6b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d42857489e4093d96b143d70710045"><td class="memTemplParams" colspan="2">template&lt;int n_bits&gt; </td></tr>
+<tr class="memitem:ad7d42857489e4093d96b143d70710045"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ad7d42857489e4093d96b143d70710045">Unsigned_int_</a> = Unsigned_&lt; <a class="el" href="../../d6/deb/namespacecppx.html#aeae8c80b226eb8808a35e23d7f9ba6b5">Int_</a>&lt; n_bits &gt; &gt;</td></tr>
+<tr class="memdesc:ad7d42857489e4093d96b143d70710045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned integer types parameterized by exact width in bits.  <a href="#ad7d42857489e4093d96b143d70710045">More...</a><br /></td></tr>
+<tr class="separator:ad7d42857489e4093d96b143d70710045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b779262e04425e1e7d0395e516935a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> = Signed_&lt; size_t &gt;</td></tr>
+<tr class="memdesc:a8b779262e04425e1e7d0395e516935a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Signed_ equivalent of <code>size_t</code>.  <a href="#a8b779262e04425e1e7d0395e516935a6">More...</a><br /></td></tr>
+<tr class="separator:a8b779262e04425e1e7d0395e516935a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61282bfaa12a91bcac2e4305bc25457"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">Index</a> = <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
+<tr class="memdesc:aa61282bfaa12a91bcac2e4305bc25457"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> but with name signifying use as index.  <a href="#aa61282bfaa12a91bcac2e4305bc25457">More...</a><br /></td></tr>
+<tr class="separator:aa61282bfaa12a91bcac2e4305bc25457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007d52c7a26041952e94762ce2a6e3b2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">Unsigned_size</a> = size_t</td></tr>
+<tr class="separator:a007d52c7a26041952e94762ce2a6e3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac190c571243aaffda9a5dceb7ab74d9e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac190c571243aaffda9a5dceb7ab74d9e">Unsigned_index</a> = <a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">Unsigned_size</a></td></tr>
+<tr class="separator:ac190c571243aaffda9a5dceb7ab74d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f40418b7d713f64518513c102be665"><td class="memTemplParams" colspan="2">template&lt;class A_type_list &gt; </td></tr>
 <tr class="memitem:ac7f40418b7d713f64518513c102be665"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac7f40418b7d713f64518513c102be665">Head_</a> = typename <a class="el" href="../../de/daf/structcppx_1_1_head__t__.html">Head_t_</a>&lt; A_type_list &gt;::T</td></tr>
 <tr class="separator:ac7f40418b7d713f64518513c102be665"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,19 +301,19 @@ Functions</h2></td></tr>
 <tr class="memitem:af3682d642a7095f340a900257668ffc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#af3682d642a7095f340a900257668ffc2">CPPX_USE_STD</a> (basic_string, basic_string_view, bitset, char_traits, size)</td></tr>
 <tr class="separator:af3682d642a7095f340a900257668ffc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfd8f4b84de8ef4792682534becc09af"><td class="memTemplParams" colspan="2">template&lt;class Collection &gt; </td></tr>
-<tr class="memitem:adfd8f4b84de8ef4792682534becc09af"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#adfd8f4b84de8ef4792682534becc09af">n_items_of</a> (const Collection &amp;c) noexcept -&gt; Size</td></tr>
+<tr class="memitem:adfd8f4b84de8ef4792682534becc09af"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#adfd8f4b84de8ef4792682534becc09af">n_items_of</a> (const Collection &amp;c) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:adfd8f4b84de8ef4792682534becc09af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memTemplParams" colspan="2">template&lt;size_t n&gt; </td></tr>
-<tr class="memitem:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1bf32af9a9b8eab07b2a7323745d525b">n_items_of</a> (const bitset&lt; n &gt; &amp;bits) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a1bf32af9a9b8eab07b2a7323745d525b">n_items_of</a> (const bitset&lt; n &gt; &amp;bits) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a1bf32af9a9b8eab07b2a7323745d525b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a85c32a31bf035484b88b1c126c3c60ad">length_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt; s) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a85c32a31bf035484b88b1c126c3c60ad"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a85c32a31bf035484b88b1c126c3c60ad">length_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt; s) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a85c32a31bf035484b88b1c126c3c60ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ae1f975530eff64d8e8caf14418439a"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:a3ae1f975530eff64d8e8caf14418439a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3ae1f975530eff64d8e8caf14418439a">length_of</a> (const basic_string&lt; Char &gt; &amp;s) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a3ae1f975530eff64d8e8caf14418439a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a3ae1f975530eff64d8e8caf14418439a">length_of</a> (const basic_string&lt; Char &gt; &amp;s) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a3ae1f975530eff64d8e8caf14418439a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e8b6a7ce2b09de69bd72ac4ab0e299"><td class="memTemplParams" colspan="2">template&lt;class Char &gt; </td></tr>
-<tr class="memitem:a19e8b6a7ce2b09de69bd72ac4ab0e299"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a19e8b6a7ce2b09de69bd72ac4ab0e299">length_of</a> (const basic_string_view&lt; Char &gt; &amp;sv) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a19e8b6a7ce2b09de69bd72ac4ab0e299"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a19e8b6a7ce2b09de69bd72ac4ab0e299">length_of</a> (const basic_string_view&lt; Char &gt; &amp;sv) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a19e8b6a7ce2b09de69bd72ac4ab0e299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af45cfcdb8c947ee8960b444a77b0de1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#af45cfcdb8c947ee8960b444a77b0de1c">CPPX_USE_STD</a> (declval, initializer_list)</td></tr>
 <tr class="separator:af45cfcdb8c947ee8960b444a77b0de1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,7 +459,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a6604720a23026a4a68d3e538e086af9e"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a6604720a23026a4a68d3e538e086af9e">it_end_of</a> (Collection &amp;&amp;c)</td></tr>
 <tr class="separator:a6604720a23026a4a68d3e538e086af9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa9100b94304bac929ac56186578eae3"><td class="memTemplParams" colspan="2">template&lt;class Iterator &gt; </td></tr>
-<tr class="memitem:afa9100b94304bac929ac56186578eae3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#afa9100b94304bac929ac56186578eae3">n_items_of</a> (const <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; Iterator &gt; &amp;range) -&gt; Size</td></tr>
+<tr class="memitem:afa9100b94304bac929ac56186578eae3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#afa9100b94304bac929ac56186578eae3">n_items_of</a> (const <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; Iterator &gt; &amp;range) -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:afa9100b94304bac929ac56186578eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d48e7b61f19b433801d11d0ea635b9"><td class="memTemplParams" colspan="2">template&lt;class Iterator &gt; </td></tr>
 <tr class="memitem:a17d48e7b61f19b433801d11d0ea635b9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a17d48e7b61f19b433801d11d0ea635b9">span_of</a> (const Iterator first, const Iterator beyond) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; Iterator &gt;</td></tr>
@@ -464,7 +477,7 @@ Functions</h2></td></tr>
 <tr class="memitem:acc09b0638e959022743a749ab1d1d417"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#acc09b0638e959022743a749ab1d1d417">all_but_first_of</a> (Container &amp;&amp;c) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
 <tr class="separator:acc09b0638e959022743a749ab1d1d417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943a4cb139ca34f670a4d0d6903046b0"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
-<tr class="memitem:a943a4cb139ca34f670a4d0d6903046b0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a943a4cb139ca34f670a4d0d6903046b0">all_but_first_n_of</a> (Container &amp;&amp;c, const Size n) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
+<tr class="memitem:a943a4cb139ca34f670a4d0d6903046b0"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a943a4cb139ca34f670a4d0d6903046b0">all_but_first_n_of</a> (Container &amp;&amp;c, const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> n) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
 <tr class="separator:a943a4cb139ca34f670a4d0d6903046b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90003cb39b07b4d31a31d484c3121667"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:a90003cb39b07b4d31a31d484c3121667"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a90003cb39b07b4d31a31d484c3121667">all_but_last_of</a> (Container &amp;&amp;c) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
@@ -473,7 +486,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a531de9dcb72ce1ca614359f0cdd3f028">text_span_of_literal</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;string_literal) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt;&gt;</td></tr>
 <tr class="separator:a531de9dcb72ce1ca614359f0cdd3f028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7aaa244a9ab607b72618d9b1e50095c"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
-<tr class="memitem:ac7aaa244a9ab607b72618d9b1e50095c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac7aaa244a9ab607b72618d9b1e50095c">all_but_last_n_of</a> (Container &amp;&amp;c, const Size n) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
+<tr class="memitem:ac7aaa244a9ab607b72618d9b1e50095c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ac7aaa244a9ab607b72618d9b1e50095c">all_but_last_n_of</a> (Container &amp;&amp;c, const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> n) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; decltype(begin(c))&gt;</td></tr>
 <tr class="separator:ac7aaa244a9ab607b72618d9b1e50095c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d78dc0252a68b639d335524d68752b"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:a94d78dc0252a68b639d335524d68752b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a94d78dc0252a68b639d335524d68752b">reversed</a> (Container &amp;&amp;c) -&gt; <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; reverse_iterator&lt; decltype(begin(c))&gt;&gt;</td></tr>
@@ -575,16 +588,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a33ca0898df5dec4a1eb912787097c329"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a33ca0898df5dec4a1eb912787097c329">CPPX_USE_STD</a> (array, bitset)</td></tr>
 <tr class="separator:a33ca0898df5dec4a1eb912787097c329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplParams" colspan="2">template&lt;class Item , size_t n&gt; </td></tr>
-<tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa639d3ab47ac40fd6a07a6500ab92213">array_size_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, Item &gt; &amp;) noexcept -&gt; Size</td></tr>
+<tr class="memitem:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#aa639d3ab47ac40fd6a07a6500ab92213">array_size_of</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, Item &gt; &amp;) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:aa639d3ab47ac40fd6a07a6500ab92213"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memTemplParams" colspan="2">template&lt;class Item , size_t n&gt; </td></tr>
-<tr class="memitem:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a42f6952a1bb05e25dcc198ee49d3cfc9">array_size_of</a> (const array&lt; Item, n &gt; &amp;) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a42f6952a1bb05e25dcc198ee49d3cfc9">array_size_of</a> (const array&lt; Item, n &gt; &amp;) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a42f6952a1bb05e25dcc198ee49d3cfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a951a56e012743239d756b0ac893bf781"><td class="memTemplParams" colspan="2">template&lt;class Item , size_t n&gt; </td></tr>
-<tr class="memitem:a951a56e012743239d756b0ac893bf781"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a951a56e012743239d756b0ac893bf781">array_size_of</a> (const bitset&lt; n &gt; &amp;) noexcept -&gt; Size</td></tr>
+<tr class="memitem:a951a56e012743239d756b0ac893bf781"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a951a56e012743239d756b0ac893bf781">array_size_of</a> (const bitset&lt; n &gt; &amp;) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:a951a56e012743239d756b0ac893bf781"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplParams" colspan="2">template&lt;class Char , Size n&gt; </td></tr>
-<tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab33c02b29dc9f11bfaa81792278b3e16">length_of_literal</a> (<a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;s) noexcept -&gt; Size</td></tr>
+<tr class="memitem:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#ab33c02b29dc9f11bfaa81792278b3e16">length_of_literal</a> (<a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;s) noexcept -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td></tr>
 <tr class="separator:ab33c02b29dc9f11bfaa81792278b3e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163fd8241aa22c9484b87dfe245944d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a163fd8241aa22c9484b87dfe245944d7">CPPX_USE_STD</a> (enable_if_t, is_same_v)</td></tr>
 <tr class="separator:a163fd8241aa22c9484b87dfe245944d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -621,7 +634,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a352d8690c293530832454110dc739326"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a352d8690c293530832454110dc739326">CPPX_USE_STD</a> (forward)</td></tr>
 <tr class="separator:a352d8690c293530832454110dc739326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0861ecfa0f42df448ad35d86e5114f7f"><td class="memTemplParams" colspan="2">template&lt;class Func , class... Args&gt; </td></tr>
-<tr class="memitem:a0861ecfa0f42df448ad35d86e5114f7f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a0861ecfa0f42df448ad35d86e5114f7f">repeat</a> (const Size n, const Func &amp;f, Args &amp;&amp;... args)</td></tr>
+<tr class="memitem:a0861ecfa0f42df448ad35d86e5114f7f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#a0861ecfa0f42df448ad35d86e5114f7f">repeat</a> (const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> n, const Func &amp;f, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a0861ecfa0f42df448ad35d86e5114f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb4f33445aeba2e1ae13359d986db6b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/namespacecppx.html#acb4f33445aeba2e1ae13359d986db6b1">CPPX_USE_STD</a> (ref, reference_wrapper)</td></tr>
 <tr class="separator:acb4f33445aeba2e1ae13359d986db6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -982,8 +995,26 @@ template&lt;class A_type_list &gt; </div>
 
 </div>
 </div>
-<a id="af3db465d10e59ead41950b6d3ba3ddc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3db465d10e59ead41950b6d3ba3ddc1">&#9670;&nbsp;</a></span>Int_</h2>
+<a id="aa61282bfaa12a91bcac2e4305bc25457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61282bfaa12a91bcac2e4305bc25457">&#9670;&nbsp;</a></span>Index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457">cppx::Index</a> = typedef <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Same as <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a> but with name signifying use as index. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html">signed-size-types.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aeae8c80b226eb8808a35e23d7f9ba6b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae8c80b226eb8808a35e23d7f9ba6b5">&#9670;&nbsp;</a></span>Int_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,12 +1022,20 @@ template&lt;class A_type_list &gt; </div>
 template&lt;int n_bits&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#af3db465d10e59ead41950b6d3ba3ddc1">cppx::Int_</a> = typedef typename <a class="el" href="../../d2/d33/structcppx_1_1impl_1_1_int__t__.html">impl::Int_t_</a>&lt;n_bits&gt;::T</td>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#aeae8c80b226eb8808a35e23d7f9ba6b5">cppx::Int_</a> = typedef ...</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d79/_int___8hpp_source.html#l00018">18</a> of file <a class="el" href="../../db/d79/_int___8hpp_source.html">Int_.hpp</a>.</p>
+<p>Signed integer types parameterized by exact width in bits. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n_bits</td><td>be 8, 16, 32 or 64. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../db/d79/_int___8hpp_source.html#l00026">26</a> of file <a class="el" href="../../db/d79/_int___8hpp_source.html">Int_.hpp</a>.</p>
 
 </div>
 </div>
@@ -1258,6 +1297,24 @@ template&lt;class Item &gt; </div>
 
 </div>
 </div>
+<a id="a8b779262e04425e1e7d0395e516935a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b779262e04425e1e7d0395e516935a6">&#9670;&nbsp;</a></span>Size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">cppx::Size</a> = typedef Signed_&lt; size_t &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A Signed_ equivalent of <code>size_t</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html">signed-size-types.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a89457d1fe017ee07c6f2ec1a683ed740"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89457d1fe017ee07c6f2ec1a683ed740">&#9670;&nbsp;</a></span>String_value_view</h2>
 
@@ -1333,8 +1390,24 @@ template&lt;class Some_type &gt; </div>
 
 </div>
 </div>
-<a id="ac9fac742d3e24dc17a49c9e61313f46c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9fac742d3e24dc17a49c9e61313f46c">&#9670;&nbsp;</a></span>Unsigned_int_</h2>
+<a id="ac190c571243aaffda9a5dceb7ab74d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac190c571243aaffda9a5dceb7ab74d9e">&#9670;&nbsp;</a></span>Unsigned_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ac190c571243aaffda9a5dceb7ab74d9e">cppx::Unsigned_index</a> = typedef <a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">Unsigned_size</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html">signed-size-types.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ad7d42857489e4093d96b143d70710045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d42857489e4093d96b143d70710045">&#9670;&nbsp;</a></span>Unsigned_int_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1342,12 +1415,30 @@ template&lt;class Some_type &gt; </div>
 template&lt;int n_bits&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ac9fac742d3e24dc17a49c9e61313f46c">cppx::Unsigned_int_</a> = typedef std::make_unsigned_t&lt;<a class="el" href="../../d6/deb/namespacecppx.html#af3db465d10e59ead41950b6d3ba3ddc1">Int_</a>&lt;n_bits&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#ad7d42857489e4093d96b143d70710045">cppx::Unsigned_int_</a> = typedef Unsigned_&lt;<a class="el" href="../../d6/deb/namespacecppx.html#aeae8c80b226eb8808a35e23d7f9ba6b5">Int_</a>&lt;n_bits&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d79/_int___8hpp_source.html#l00019">19</a> of file <a class="el" href="../../db/d79/_int___8hpp_source.html">Int_.hpp</a>.</p>
+<p>Unsigned integer types parameterized by exact width in bits. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../db/d79/_int___8hpp_source.html#l00032">32</a> of file <a class="el" href="../../db/d79/_int___8hpp_source.html">Int_.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a007d52c7a26041952e94762ce2a6e3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a007d52c7a26041952e94762ce2a6e3b2">&#9670;&nbsp;</a></span>Unsigned_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d6/deb/namespacecppx.html#a007d52c7a26041952e94762ce2a6e3b2">cppx::Unsigned_size</a> = typedef size_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../dc/d82/signed-size-types_8hpp_source.html">signed-size-types.hpp</a>.</p>
 
 </div>
 </div>
@@ -1404,7 +1495,7 @@ template&lt;class Container &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Size&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -1476,7 +1567,7 @@ template&lt;class Container &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Size&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -1621,7 +1712,7 @@ template&lt;class Item , size_t n&gt; </div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, Item &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -1652,7 +1743,7 @@ template&lt;class Item , size_t n&gt; </div>
           <td>(</td>
           <td class="paramtype">const array&lt; Item, n &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -1683,7 +1774,7 @@ template&lt;class Item , size_t n&gt; </div>
           <td>(</td>
           <td class="paramtype">const bitset&lt; n &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -2321,36 +2412,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a163fd8241aa22c9484b87dfe245944d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a163fd8241aa22c9484b87dfe245944d7">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[9/28]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cppx::CPPX_USE_STD </td>
-          <td>(</td>
-          <td class="paramtype">enable_if_t&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">is_same_v&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5332b94705b534930fcfed8c01c8c1ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5332b94705b534930fcfed8c01c8c1ee">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[10/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5332b94705b534930fcfed8c01c8c1ee">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[9/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2390,7 +2453,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a78bb82d6621691c9b8e5a99bda4f7a9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78bb82d6621691c9b8e5a99bda4f7a9a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[11/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bb82d6621691c9b8e5a99bda4f7a9a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[10/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2436,7 +2499,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a4b77f1057e1ba24e9c95f746d24f86e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b77f1057e1ba24e9c95f746d24f86e2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[12/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b77f1057e1ba24e9c95f746d24f86e2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[11/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2482,7 +2545,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="af3682d642a7095f340a900257668ffc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3682d642a7095f340a900257668ffc2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[13/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af3682d642a7095f340a900257668ffc2">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[12/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2528,7 +2591,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="ab0d1003047a3c8b9157769c1d0eb78a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d1003047a3c8b9157769c1d0eb78a4">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[14/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d1003047a3c8b9157769c1d0eb78a4">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[13/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2556,7 +2619,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a865fac76ae8453b35b58cd0fee48db8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a865fac76ae8453b35b58cd0fee48db8b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[15/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a865fac76ae8453b35b58cd0fee48db8b">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[14/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2584,7 +2647,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a48a9c78cf9e1de015749266096dc3261"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48a9c78cf9e1de015749266096dc3261">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[16/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a9c78cf9e1de015749266096dc3261">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[15/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2630,7 +2693,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a87890b14ec45807a45c09e954eb7d64a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87890b14ec45807a45c09e954eb7d64a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[17/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a87890b14ec45807a45c09e954eb7d64a">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[16/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2664,7 +2727,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a141e09e97c663ef575733dd6d8723fa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a141e09e97c663ef575733dd6d8723fa5">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[18/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a141e09e97c663ef575733dd6d8723fa5">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[17/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2682,7 +2745,7 @@ template&lt;class Key &gt; </div>
 </div>
 </div>
 <a id="a0adb15e733fdc6b3b1422d787bb84adf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0adb15e733fdc6b3b1422d787bb84adf">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[19/28]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0adb15e733fdc6b3b1422d787bb84adf">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[18/28]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2703,6 +2766,34 @@ template&lt;class Key &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">set&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a163fd8241aa22c9484b87dfe245944d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a163fd8241aa22c9484b87dfe245944d7">&#9670;&nbsp;</a></span>CPPX_USE_STD() <span class="overload">[19/28]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cppx::CPPX_USE_STD </td>
+          <td>(</td>
+          <td class="paramtype">enable_if_t&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">is_same_v&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -4456,7 +4547,7 @@ template&lt;class Char &gt; </div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#aac5679e5b26892c87e633319105450d1">P_</a>&lt; const Char &gt;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4487,7 +4578,7 @@ template&lt;class Char &gt; </div>
           <td>(</td>
           <td class="paramtype">const basic_string&lt; Char &gt; &amp;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4518,7 +4609,7 @@ template&lt;class Char &gt; </div>
           <td>(</td>
           <td class="paramtype">const basic_string_view&lt; Char &gt; &amp;&#160;</td>
           <td class="paramname"><em>sv</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4549,7 +4640,7 @@ template&lt;class Char , Size n&gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/deb/namespacecppx.html#ab81e5505f670953191f0de5e77d5f01f">Raw_array_of_</a>&lt; n, const Char &gt; &amp;&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4625,7 +4716,7 @@ template&lt;class Collection &gt; </div>
           <td>(</td>
           <td class="paramtype">const Collection &amp;&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4656,7 +4747,7 @@ template&lt;size_t n&gt; </div>
           <td>(</td>
           <td class="paramtype">const bitset&lt; n &gt; &amp;&#160;</td>
           <td class="paramname"><em>bits</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4687,7 +4778,7 @@ template&lt;class Iterator &gt; </div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d3/d84/classcppx_1_1_span__.html">Span_</a>&lt; Iterator &gt; &amp;&#160;</td>
           <td class="paramname"><em>range</em></td><td>)</td>
-          <td> -&gt; Size
+          <td> -&gt; <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>
     </td>
         </tr>
       </table>
@@ -4916,7 +5007,7 @@ template&lt;class Func , class... Args&gt; </div>
         <tr>
           <td class="memname">void cppx::repeat </td>
           <td>(</td>
-          <td class="paramtype">const Size&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d6/deb/namespacecppx.html#a8b779262e04425e1e7d0395e516935a6">Size</a>&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
@@ -5097,41 +5188,8 @@ template&lt;class Container &gt; </div>
 
 </div>
 </div>
-<a id="a9a1e3d2b5b2e0a46a0a698aaa152e3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a1e3d2b5b2e0a46a0a698aaa152e3f8">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Key &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto cppx::set_difference </td>
-          <td>(</td>
-          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
-    </td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00108">108</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a60c1c21c13e84465ef5ce26c70a88b08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c1c21c13e84465ef5ce26c70a88b08">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c1c21c13e84465ef5ce26c70a88b08">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5160,6 +5218,39 @@ template&lt;class Key &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00108">108</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9a1e3d2b5b2e0a46a0a698aaa152e3f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1e3d2b5b2e0a46a0a698aaa152e3f8">&#9670;&nbsp;</a></span>set_difference() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cppx::set_difference </td>
+          <td>(</td>
+          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="../../da/d8f/classcppx_1_1_sorted__set__.html">Sorted_set_</a>&lt;Key&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00108">108</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
 
 </div>
 </div>
@@ -5427,41 +5518,8 @@ template&lt;class Key &gt; </div>
 
 </div>
 </div>
-<a id="a6d64bccadefa6d56e5c7f950183d22c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d64bccadefa6d56e5c7f950183d22c6">&#9670;&nbsp;</a></span>set_union() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Key , class Arg &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto cppx::set_union </td>
-          <td>(</td>
-          <td class="paramtype">const unordered_set&lt; Key &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Arg &amp;&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt;Key&gt;
-    </td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a930f695532c9744521f4806f4618a654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a930f695532c9744521f4806f4618a654">&#9670;&nbsp;</a></span>set_union() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a930f695532c9744521f4806f4618a654">&#9670;&nbsp;</a></span>set_union() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5490,6 +5548,39 @@ template&lt;class Key , class Arg &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dc/d45/_sorted__set___8hpp_source.html">Sorted_set_.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6d64bccadefa6d56e5c7f950183d22c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d64bccadefa6d56e5c7f950183d22c6">&#9670;&nbsp;</a></span>set_union() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Key , class Arg &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto cppx::set_union </td>
+          <td>(</td>
+          <td class="paramtype">const unordered_set&lt; Key &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Arg &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="../../d2/d61/classcppx_1_1_set__.html">Set_</a>&lt;Key&gt;
+    </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d05/_set___8hpp_source.html#l00098">98</a> of file <a class="el" href="../../dd/d05/_set___8hpp_source.html">Set_.hpp</a>.</p>
 
 </div>
 </div>

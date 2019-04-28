@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['index',['Index',['../d1/d9b/namespacecppx_1_1size__types.html#a95c691624eaf7db1cc6de0be149d1502',1,'cppx::size_types']]],
-  ['int_5f',['Int_',['../d6/deb/namespacecppx.html#af3db465d10e59ead41950b6d3ba3ddc1',1,'cppx']]],
+  ['index',['Index',['../d6/deb/namespacecppx.html#aa61282bfaa12a91bcac2e4305bc25457',1,'cppx']]],
+  ['int_5f',['Int_',['../d6/deb/namespacecppx.html#aeae8c80b226eb8808a35e23d7f9ba6b5',1,'cppx']]],
   ['item',['Item',['../d5/d94/classcppx_1_1_enumerated__.html#a62f4fb860005995c9b69e7606647b06a',1,'cppx::Enumerated_']]],
   ['item_5ffor_5fcollection_5f',['Item_for_collection_',['../d6/deb/namespacecppx.html#aca1992a997fbb668a41d162d34a9292d',1,'cppx']]],
   ['item_5ffor_5fiterator_5f',['Item_for_iterator_',['../d6/deb/namespacecppx.html#a2cd2291fb66305f892e8242a11908d09',1,'cppx']]],

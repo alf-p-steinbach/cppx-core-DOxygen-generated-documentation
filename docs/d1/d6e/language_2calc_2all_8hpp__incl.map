@@ -6,7 +6,7 @@
 <area shape="rect" id="node10" href="$d1/dc4/number-type-properties_8hpp.html" title="Concise, clear &amp; consistent notation for number type properties: is_ieee_754_, largest_,..." alt="" coords="267,199,514,240"/>
 <area shape="rect" id="node11" href="$d4/da4/std-calc_8hpp.html" title="Just includes &lt;c/math.hpp&gt;, &lt;complex&gt; and &lt;numeric&gt;." alt="" coords="744,199,892,240"/>
 <area shape="rect" id="node4" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="126,377,295,419"/>
-<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title=" " alt="" coords="272,288,420,329"/>
+<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="272,288,420,329"/>
 <area shape="rect" id="node6" title=" " alt="" coords="320,385,418,411"/>
 <area shape="rect" id="node8" title=" " alt="" coords="660,295,752,322"/>
 <area shape="rect" id="node9" title=" " alt="" coords="497,295,561,322"/>
