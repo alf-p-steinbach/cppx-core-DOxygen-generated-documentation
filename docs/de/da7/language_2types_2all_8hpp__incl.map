@@ -6,7 +6,7 @@
 <area shape="rect" id="node10" href="$d6/d63/fixed-size-checking_8hpp.html" title="Static size checkers: bits_per_, array_size_of (raw array, array and bitset) and length_of_literal (a..." alt="" coords="648,95,880,136"/>
 <area shape="rect" id="node11" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="433,184,652,225"/>
 <area shape="rect" id="node15" href="$db/d79/_int___8hpp.html" title="Integer types templated on exact number of bits: Int_ and Unsigned_int_." alt="" coords="292,95,440,136"/>
-<area shape="rect" id="node17" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="1196,273,1344,315"/>
+<area shape="rect" id="node17" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="1196,273,1344,315"/>
 <area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="858,452,1027,493"/>
 <area shape="rect" id="node4" title=" " alt="" coords="492,459,598,486"/>
 <area shape="rect" id="node7" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="608,363,818,404"/>

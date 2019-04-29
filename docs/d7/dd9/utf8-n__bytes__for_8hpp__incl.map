@@ -5,7 +5,7 @@
 <area shape="rect" id="node3" href="$dd/d0a/_span___8hpp.html" title=" " alt="" coords="294,191,463,233"/>
 <area shape="rect" id="node4" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="702,377,871,419"/>
 <area shape="rect" id="node5" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="84,288,303,329"/>
-<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="769,288,917,329"/>
+<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="769,288,917,329"/>
 <area shape="rect" id="node7" title=" " alt="" coords="474,295,553,322"/>
 <area shape="rect" id="node8" title=" " alt="" coords="327,295,398,322"/>
 <area shape="rect" id="node9" href="$d8/daa/macro-items__of_8hpp.html" title="$items_of eases use of standard library functions, e.g. sort( $items_of( numbers ) )." alt="" coords="539,184,693,240"/>

@@ -14,7 +14,7 @@
 <area shape="rect" id="node9" title=" " alt="" coords="1234,459,1298,486"/>
 <area shape="rect" id="node10" title=" " alt="" coords="1423,459,1522,486"/>
 <area shape="rect" id="node4" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="682,631,852,672"/>
-<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="1058,541,1206,583"/>
+<area shape="rect" id="node5" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="1058,541,1206,583"/>
 <area shape="rect" id="node6" title=" " alt="" coords="486,549,557,575"/>
 <area shape="rect" id="node12" title=" " alt="" coords="434,370,519,397"/>
 <area shape="rect" id="node13" title=" " alt="" coords="543,370,628,397"/>

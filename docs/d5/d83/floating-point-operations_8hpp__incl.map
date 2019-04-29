@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Useful common “calculator” operations: intpow, squared and cubed." alt="" coords="568,5,731,61"/>
 <area shape="rect" id="node2" href="$dd/d80/integer-operations_8hpp.html" title="Common integer operations: is_even, is_odd, intdiv, intmod, intsquare, intcube, intmin and intmax." alt="" coords="349,109,568,151"/>
 <area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="639,288,809,329"/>
-<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="37,199,185,240"/>
+<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="37,199,185,240"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,295,104,322"/>
 <area shape="rect" id="node6" title=" " alt="" coords="209,206,316,233"/>
 <area shape="rect" id="node7" title=" " alt="" coords="340,206,447,233"/>

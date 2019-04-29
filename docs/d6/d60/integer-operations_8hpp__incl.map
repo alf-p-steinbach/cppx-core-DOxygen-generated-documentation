@@ -1,7 +1,7 @@
 <map id="cppx&#45;core/language/calc/integer&#45;operations.hpp" name="cppx&#45;core/language/calc/integer&#45;operations.hpp">
 <area shape="rect" id="node1" title="Common integer operations: is_even, is_odd, intdiv, intmod, intsquare, intcube, intmin and intmax." alt="" coords="398,5,617,47"/>
 <area shape="rect" id="node2" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="12,184,181,225"/>
-<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="231,95,379,136"/>
+<area shape="rect" id="node4" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="231,95,379,136"/>
 <area shape="rect" id="node6" title=" " alt="" coords="427,191,526,218"/>
 <area shape="rect" id="node7" title=" " alt="" coords="454,102,561,129"/>
 <area shape="rect" id="node8" title=" " alt="" coords="585,102,691,129"/>

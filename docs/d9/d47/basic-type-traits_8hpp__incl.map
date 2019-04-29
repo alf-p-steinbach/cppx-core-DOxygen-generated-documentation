@@ -1,6 +1,6 @@
 <map id="cppx&#45;core/language/tmp/basic&#45;type&#45;traits.hpp" name="cppx&#45;core/language/tmp/basic&#45;type&#45;traits.hpp">
 <area shape="rect" id="node1" title="is_base_and_derived_, is_same_type_, is_a_, is_const_, is_class_, is_fixed_point_,..." alt="" coords="281,5,485,47"/>
-<area shape="rect" id="node2" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="239,95,387,136"/>
+<area shape="rect" id="node2" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="239,95,387,136"/>
 <area shape="rect" id="node5" title=" " alt="" coords="421,191,519,218"/>
 <area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="5,184,175,225"/>
 <area shape="rect" id="node4" href="$d4/d6c/basic-_enable__if___8hpp.html" title="Enable_if_ is just more readable than enable_if_t." alt="" coords="199,184,397,225"/>

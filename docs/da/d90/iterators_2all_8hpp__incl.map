@@ -7,5 +7,5 @@
 <area shape="rect" id="node4" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="535,273,705,315"/>
 <area shape="rect" id="node5" title=" " alt="" coords="312,281,419,307"/>
 <area shape="rect" id="node8" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="403,184,613,225"/>
-<area shape="rect" id="node9" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="638,184,786,225"/>
+<area shape="rect" id="node9" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="638,184,786,225"/>
 </map>

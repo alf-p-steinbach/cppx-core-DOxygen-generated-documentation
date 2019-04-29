@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title=" " alt="" coords="332,5,501,47"/>
 <area shape="rect" id="node2" href="$d5/dc4/is__empty_8hpp.html" title=" " alt="" coords="184,95,353,136"/>
 <area shape="rect" id="node3" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="128,363,297,404"/>
-<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="26,184,174,225"/>
+<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="26,184,174,225"/>
 <area shape="rect" id="node8" title=" " alt="" coords="352,191,430,218"/>
 <area shape="rect" id="node9" title=" " alt="" coords="454,191,525,218"/>
 <area shape="rect" id="node10" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="479,95,698,136"/>

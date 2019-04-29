@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A drop-in replacement for <code>bool</code> without implicit conversion to types other than <code>bool</code>.  
+<p>A drop-in replacement for <code>bool</code> without implicit conversion from/to types other than <code>bool</code>.  
  <a href="../../df/d2f/classcppx_1_1_truth.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>&gt;</code></p>
@@ -90,12 +90,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad5f78f1b8828771692530c6ad5400450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A drop-in replacement for <code>bool</code> without implicit conversion to types other than <code>bool</code>. </p>
-<p>“Replacement”: e.g. indexing of a <code>std::vector&lt;<a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a>&gt;</code> will in practice produce a reference to a <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a></code> item, which you can take the address of, rather than the proxy object you usually get with a <code>std::vector&lt;bool&gt;</code>. The proxy objects of the latter allows it to store just 1 bit per item, at a cost that includes marginally reduced efficiency and high inconvenience. That cost is avoided with <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a></code>.</p>
-<p>“Drop-in”: Implicit conversions to and from <code>bool</code> type are a common cause of undesired overload resolution. <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a></code> avoids this by only converting to and from <code>bool</code>. It's mostly a drop-in replacement for <code>bool</code> because you can use <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a></code> values directly as <code>if</code> and loop conditions, and in boolean expressions.</p>
-<p>“Mostly”: as of C++17 <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion to types other than bool.">Truth</a></code>, like any other user-defined class type, can't be used as template value parameter type, but this may change with C++20. </p>
+<div class="textblock"><p>A drop-in replacement for <code>bool</code> without implicit conversion from/to types other than <code>bool</code>. </p>
+<p>Implicit conversions to and from <code>bool</code> type are a common cause of undesired overload resolution. <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a></code> only converts implicitly to and from <code>bool</code>. It's mostly a drop-in replacement for <code>bool</code> because you can use <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a></code> values directly as conditions in <code>if</code> and loop statemetns, and in boolean operator expressions.</p>
+<p>“Mostly”: as of C++17 <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a></code>, like any other user-defined class type, can't be used as template value parameter type, but this may change with C++20.</p>
+<p>Unplanned positive effect: indexing of a <code>std::vector&lt;<a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a>&gt;</code> produces a reference to a <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a></code> item, which you can take the address of, rather than the proxy object that you usually get with a <code>std::vector&lt;bool&gt;</code>. The proxy objects of the latter allows it to store just 1 bit per item, at a cost that includes marginally reduced efficiency and high inconvenience. That cost is avoided with <code><a class="el" href="../../df/d2f/classcppx_1_1_truth.html" title="A drop-in replacement for bool without implicit conversion from/to types other than bool.">Truth</a></code> as item type. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad5f78f1b8828771692530c6ad5400450"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5f78f1b8828771692530c6ad5400450">&#9670;&nbsp;</a></span>Truth()</h2>
@@ -126,7 +126,7 @@ template&lt;class Arg , class  = Enable_if_&lt;is_bool_&lt;Arg&gt;&gt;&gt; </div
 <p>Construction from <code>bool</code> (only). </p>
 <p>Construction SFINAE-restricted to <code>bool</code> argument. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
 
 </div>
 </div>
@@ -159,7 +159,7 @@ template&lt;class Result , class  = Enable_if_&lt;is_bool_&lt;Result&gt;&gt;&gt;
 <p>Implicit conversion to <code>bool</code> (only). </p>
 <p>Implicit conversion to <code>bool</code> because that's needed for template args. Restricted via SFINAE because overload resolution, want predictability. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d44/_truth_8hpp_source.html#l00050">50</a> of file <a class="el" href="../../d0/d44/_truth_8hpp_source.html">Truth.hpp</a>.</p>
 
 </div>
 </div>

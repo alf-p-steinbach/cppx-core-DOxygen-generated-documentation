@@ -7,7 +7,7 @@
 <area shape="rect" id="node15" title=" " alt="" coords="1178,102,1256,129"/>
 <area shape="rect" id="node4" href="$d0/d4b/type-assemblers_8hpp.html" title="Simple type builders Type_, P_, R_, Raw_array_ and Raw_array_of_." alt="" coords="953,273,1164,315"/>
 <area shape="rect" id="node5" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="710,273,929,315"/>
-<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion to types other than bool." alt="" coords="538,273,686,315"/>
+<area shape="rect" id="node6" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="538,273,686,315"/>
 <area shape="rect" id="node7" title=" " alt="" coords="186,281,272,307"/>
 <area shape="rect" id="node8" title=" " alt="" coords="296,281,360,307"/>
 <area shape="rect" id="node9" title=" " alt="" coords="27,281,162,307"/>
