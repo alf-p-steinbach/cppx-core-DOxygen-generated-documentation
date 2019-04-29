@@ -9,7 +9,7 @@
 <area shape="rect" id="node15" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="145,363,293,404"/>
 <area shape="rect" id="node3" href="$d1/d64/macro-apply__with__fixed__arg_8hpp.html" title="For each of the max 63 specified second arguments $apply_with_fixed_arg invokes the specified two&#45;arg..." alt="" coords="265,631,447,687"/>
 <area shape="rect" id="node5" title=" " alt="" coords="717,549,824,575"/>
-<area shape="rect" id="node7" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="579,363,755,404"/>
+<area shape="rect" id="node7" href="$d5/d6a/type-makers_8hpp.html" title="Type_choice_, Unptr_, Unref_, Signed_, Unsigned_, Const_, Unconst_ and Array_of_." alt="" coords="579,363,755,404"/>
 <area shape="rect" id="node8" title=" " alt="" coords="419,459,517,486"/>
 <area shape="rect" id="node10" href="$d6/d63/fixed-size-checking_8hpp.html" title="Static size checkers: bits_per_, array_size_of (raw array, array and bitset) and length_of_literal (a..." alt="" coords="455,184,687,225"/>
 <area shape="rect" id="node11" title=" " alt="" coords="344,281,408,307"/>

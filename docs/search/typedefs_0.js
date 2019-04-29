@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['array_5fof_5f',['Array_of_',['../d8/dbe/namespacecppx_1_1type__makers.html#a3d89c83d0f12056eef5b02c6c366d3e3',1,'cppx::type_makers']]]
+  ['array_5fof_5f',['Array_of_',['../d6/deb/namespacecppx.html#ac78e9d5ad691c53d99970c2e14f95a43',1,'cppx']]]
 ];

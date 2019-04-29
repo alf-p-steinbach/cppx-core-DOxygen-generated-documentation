@@ -4,5 +4,5 @@ var searchData=
   ['tail_5f',['Tail_',['../d6/deb/namespacecppx.html#aef98213675b0838f9bed909f989728da',1,'cppx']]],
   ['timer_5fclock',['Timer_clock',['../d6/deb/namespacecppx.html#aed73d55d972062e42b559bede409122e',1,'cppx']]],
   ['type_5f',['Type_',['../d6/deb/namespacecppx.html#ad2994287ec190ae8793419cb963a8f71',1,'cppx']]],
-  ['type_5fchoice_5f',['Type_choice_',['../d8/dbe/namespacecppx_1_1type__makers.html#a88712ee4f9b7ed9d41b7af92eb6de1cc',1,'cppx::type_makers']]]
+  ['type_5fchoice_5f',['Type_choice_',['../d6/deb/namespacecppx.html#a5789ce17587ab71fb2320e33a29617a1',1,'cppx']]]
 ];

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title=" " alt="" coords="292,5,440,47"/>
 <area shape="rect" id="node2" href="$d1/d29/byte-types_8hpp.html" title="Byte and Signed_byte, + std::byte support definitions as_number and as_std_byte." alt="" coords="231,363,400,404"/>
 <area shape="rect" id="node5" href="$d1/dfe/_c__str___8hpp.html" title="C_str for char const*; Wide_c_str for wchar_t const*; and Mutable_c_str and Mutable_wide_c_str as dit..." alt="" coords="39,95,187,136"/>
-<area shape="rect" id="node6" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="372,273,548,315"/>
+<area shape="rect" id="node6" href="$d5/d6a/type-makers_8hpp.html" title="Type_choice_, Unptr_, Unref_, Signed_, Unsigned_, Const_, Unconst_ and Array_of_." alt="" coords="372,273,548,315"/>
 <area shape="rect" id="node10" href="$d6/d63/fixed-size-checking_8hpp.html" title="Static size checkers: bits_per_, array_size_of (raw array, array and bitset) and length_of_literal (a..." alt="" coords="648,95,880,136"/>
 <area shape="rect" id="node11" href="$dc/d82/signed-size-types_8hpp.html" title="Signed Size and Index, plus unsigned equivalents Unsigned_size and Unsigned_index." alt="" coords="433,184,652,225"/>
 <area shape="rect" id="node15" href="$db/d79/_int___8hpp.html" title="Integer types templated on exact number of bits: Int_ and Unsigned_int_." alt="" coords="292,95,440,136"/>

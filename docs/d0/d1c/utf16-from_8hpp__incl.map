@@ -10,7 +10,7 @@
 <area shape="rect" id="node7" href="$d3/d7c/macro-use_8hpp.html" title="Macros for generating more concise and clear using statements, primarily $use_cppx and $use_std,..." alt="" coords="580,720,749,761"/>
 <area shape="rect" id="node8" href="$d2/d2b/basic-type-traits_8hpp.html" title="is_base_and_derived_, is_same_type_, is_a_, is_const_, is_class_, is_fixed_point_,..." alt="" coords="104,541,308,583"/>
 <area shape="rect" id="node9" href="$d0/d44/_truth_8hpp.html" title="Truth is a drop&#45;in replacement for bool without implicit conversion from/to types other than bool." alt="" coords="66,631,214,672"/>
-<area shape="rect" id="node10" href="$d5/d6a/type-makers_8hpp.html" title=" " alt="" coords="426,452,602,493"/>
+<area shape="rect" id="node10" href="$d5/d6a/type-makers_8hpp.html" title="Type_choice_, Unptr_, Unref_, Signed_, Unsigned_, Const_, Unconst_ and Array_of_." alt="" coords="426,452,602,493"/>
 <area shape="rect" id="node11" href="$dc/de9/_type__list___8hpp.html" title=" " alt="" coords="66,452,249,493"/>
 <area shape="rect" id="node12" title=" " alt="" coords="733,459,812,486"/>
 <area shape="rect" id="node14" href="$d7/d8c/bits__per___8hpp.html" title="bits_per_ and magnitude_bits_per_, plus the for&#45;readability constant bits_per_byte." alt="" coords="728,631,918,672"/>
